@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Nations Road Trauma Inpatients — AIHW 2023</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app-layout">
+    <header class="app-header">
+      <div class="header-left">
+        <h1>First Nations Road Traffic Hospitalised Injuries</h1>
+        <p>Comparative Study of Indigenous & Non-Indigenous Admissions (2011–2021)</p>
+      </div>
+      <div class="header-badge">
+        <span id="badge-indigenous-scope">Equity Comparison &bull; 2011–2021</span>
+      </div>
+    </header>
+
+    <div class="nav-bar">
+      <div class="tab-group">
+        <button class="nav-btn active" data-tab="tab-trends">Admission Trends & Ratio</button>
+        <button class="nav-btn" data-tab="tab-roaduser-disparity">Road User Disparities</button>
+        <button class="nav-btn" data-tab="tab-severity">Bed Days & Severity</button>
+      </div>
+      <div class="filter-group">
+        <label for="filter-status">Demographic:</label>
+        <select id="filter-status">
+          <option value="both">Both Groups Compared</option>
+          <option value="fn">First Nations People Only</option>
+          <option value="non">Non-Indigenous Only</option>
+        </select>
+        <button class="btn-reset" id="btn-reset">Reset</button>
+      </div>
+    </div>
+
+    <main class="app-main">
+      <!-- TAB 1: Admission Trends & Ratio -->
+      <section id="tab-trends" class="view-panel active">
+        <div class="kpi-strip">
+          <div class="kpi-card">
+            <span class="kpi-label">First Nations Admissions</span>
+            <div class="kpi-val">18,616</div>
+            <span class="kpi-sub">Increased by <strong class="trend-up">+92.5%</strong> from 2011 to 2021</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">First Nations Acute Bed Days</span>
+            <div class="kpi-val">100,025</div>
+            <span class="kpi-sub">Mean stay: <strong>5.37 days</strong> (vs 4.82 non-Indigenous)</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Non-Indigenous Admissions</span>
+            <div class="kpi-val">380,684</div>
+            <span class="kpi-sub">Total 1,834,954 bed days recorded</span>
+          </div>
+        </div>
+
+        <div class="chart-quad">
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>First Nations Annual Admissions Trend</h3>
+              <span class="tag">Accelerating Inpatient Count</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-fn-trend"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>Comparative Growth Index (2011 Baseline = 100)</h3>
+              <span class="tag">Rate of Expansion</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-growth-index"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>First Nations Bed Days Volume Trend</h3>
+              <span class="tag">Acute Hospital Burden</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-fn-beddays-trend"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>Overall Hospitalised Proportion</h3>
+              <span class="tag">Cohort Share</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-cohort-share"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Road User Disparities -->
+      <section id="tab-roaduser-disparity" class="view-panel">
+        <div class="chart-quad">
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>First Nations Road User Composition</h3>
+              <span class="tag">54.8% Car / 19.1% Moto</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-fn-user-bar"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>Non-Indigenous Road User Composition</h3>
+              <span class="tag">Higher Cyclist Share</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-non-user-bar"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>Pedestrian Injury Proportion Gap</h3>
+              <span class="tag">12.1% FN vs 6.8% Non-Indigenous</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-pedestrian-gap"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>Cyclist vs Vehicle Ratio</h3>
+              <span class="tag">Modal Differences</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-cyclist-gap"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: Bed Days & Severity -->
+      <section id="tab-severity" class="view-panel">
+        <div class="chart-quad">
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>Average Days in Hospital by Road User</h3>
+              <span class="tag">FN vs Non-Indigenous</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-los-comparison"></canvas></div>
+          </div>
+          <div class="chart-box">
+            <div class="box-head">
+              <h3>First Nations Bed Days by Vehicle Class</h3>
+              <span class="tag">Total Inpatient Days</span>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-fn-beddays-user"></canvas></div>
+          </div>
+          <div class="chart-box notes-box">
+            <div class="box-head"><h3>Epidemiological Disparities</h3></div>
+            <div class="notes-content">
+              <p><strong>Pedestrian Risk:</strong> First Nations people represent almost double the proportion of pedestrian injuries (12.1% vs 6.8%), frequently linked to rural/remote road conditions with limited pedestrian barriers.</p>
+              <p><strong>Admission Growth:</strong> Annual hospitalisations grew from 1,150 in 2011 to 2,214 in 2021 (+92.5%), highlighting critical road trauma health equity challenges.</p>
+            </div>
+          </div>
+          <div class="chart-box notes-box">
+            <div class="box-head"><h3>Data Integrity Note</h3></div>
+            <div class="notes-content">
+              <p><strong>Source:</strong> AIHW National Hospital Morbidity Database, derived from `first_nations_road_user.csv`.</p>
+              <p><strong>Definition:</strong> Based on self-identification during hospital registration.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <span>AIHW First Nations Road Trauma Analysis &bull; Fixed 100vh Layout</span>
+      <span>Status: Direct Integration with KNIME Data</span>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
