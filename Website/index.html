@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Australian Road Trauma Dashboard — AIHW 2023</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div id="db-loading" class="db-loading">
+    <div class="db-spinner"></div>
+    <span id="db-loading-msg">Loading AIHW datasets (Hospitalisation, First Nations, State)...</span>
+  </div>
+  <div class="app-layout">
+
+    <!-- ═══ HEADER ════════════════════════════════════════════ -->
+    <header class="app-header">
+      <div class="header-left">
+        <h1>🚑 Australian Road Trauma Dashboard</h1>
+        <p>AIHW Hospitalisation Injury Publication · 2011–2021</p>
+      </div>
+      <div class="header-badge">
+        <span id="db-scope-badge">All Traffic Events · Australia</span>
+      </div>
+    </header>
+
+    <!-- ═══ UNIFIED FILTER BAR ════════════════════════════════ -->
+    <div class="filter-bar">
+      <div class="filter-item">
+        <label for="filter-year">Year</label>
+        <select id="filter-year">
+          <option value="all">All Years</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label for="filter-state">State</label>
+        <select id="filter-state" disabled title="Only available for State &amp; Territory data">
+          <option value="all">All States</option>
+          <option value="NSW">NSW</option>
+          <option value="Vic">VIC</option>
+          <option value="Qld">QLD</option>
+          <option value="WA">WA</option>
+          <option value="SA">SA</option>
+          <option value="Tas">TAS</option>
+          <option value="NT">NT</option>
+          <option value="ACT">ACT</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label for="filter-data">Data</label>
+        <select id="filter-data">
+          <option value="national">National Overview</option>
+          <option value="firstnations">First Nations</option>
+          <option value="state">State &amp; Territory</option>
+        </select>
+      </div>
+
+      <button class="btn-reset" id="btn-reset-all">Reset</button>
+    </div>
+
+    <!-- ═══ MAIN AREA ══════════════════════════════════════════ -->
+    <main class="app-main">
+
+      <!-- ── PAGE: National Overview ──────────────────────── -->
+      <section id="page-national" class="db-page active">
+        <div class="nav-bar">
+          <div class="tab-group">
+            <button class="nav-btn active" data-tab="tab-overview">Overview &amp; Trends</button>
+            <button class="nav-btn" data-tab="tab-roadusers">Road Users &amp; Inpatient Days</button>
+            <button class="nav-btn" data-tab="tab-causes">All Causes Comparison</button>
+          </div>
+        </div>
+        <div class="page-content">
+
+          <!-- TAB 1 -->
+          <section id="tab-overview" class="view-panel active">
+            <div class="kpi-strip">
+              <div class="kpi-card">
+                <span class="kpi-label">Traffic Hospitalisations</span>
+                <div class="kpi-val" id="kpi-hosp">410,884</div>
+                <span class="kpi-sub">Total 2011–2021 (<strong class="trend-up">+16.1%</strong> over period)</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Total Acute Bed Days</span>
+                <div class="kpi-val" id="kpi-beddays">2,007,387</div>
+                <span class="kpi-sub">Combined inpatient burden across all years</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Average Length of Stay</span>
+                <div class="kpi-val" id="kpi-los">4.89 <small>days</small></div>
+                <span class="kpi-sub">Mean across all road user types and years</span>
+              </div>
+            </div>
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Annual Traffic Hospitalisations Trend</h3><span class="tag">2011–2021</span></div>
+                <div class="canvas-wrap"><canvas id="c-annual-trend"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Hospitalisations by Road User Type</h3><span class="tag">Adjusts with Year filter</span></div>
+                <div class="canvas-wrap"><canvas id="c-road-users-hosp"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Annual Acute Bed Days</h3><span class="tag">Healthcare Burden</span></div>
+                <div class="canvas-wrap"><canvas id="c-bed-days-trend"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Road User Share</h3><span class="tag">Proportional View</span></div>
+                <div class="canvas-wrap"><canvas id="c-road-user-pie"></canvas></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 2 -->
+          <section id="tab-roadusers" class="view-panel">
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Total Bed Days by Road User</h3><span class="tag" id="tag-user-beddays">Healthcare Load</span></div>
+                <div class="canvas-wrap"><canvas id="c-user-beddays"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Average Length of Stay by User Type</h3><span class="tag" id="tag-user-los">Days per admission</span></div>
+                <div class="canvas-wrap"><canvas id="c-user-los"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Two-Wheeler Trend (Moto vs Cyclist)</h3><span class="tag" id="tag-two-wheel">Annual Growth</span></div>
+                <div class="canvas-wrap"><canvas id="c-two-wheel"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Pedestrian Admissions Trend</h3><span class="tag" id="tag-ped-trend">Declining Pattern</span></div>
+                <div class="canvas-wrap"><canvas id="c-pedestrian-trend"></canvas></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 3 -->
+          <section id="tab-causes" class="view-panel">
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Hospitalisations by Transport Cause</h3><span class="tag">Traffic vs Other</span></div>
+                <div class="canvas-wrap"><canvas id="c-all-causes"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Cause Proportion</h3><span class="tag">Share of Total</span></div>
+                <div class="canvas-wrap"><canvas id="c-transport-pie"></canvas></div>
+              </div>
+              <div class="chart-box notes-box">
+                <div class="box-head"><h3>Data Source Notes</h3></div>
+                <div class="notes-content">
+                  <p><strong>Traffic injuries</strong> remain the dominant category at 410,884 — over 61% of all transport-related hospitalisations during the decade.</p>
+                  <p><strong>Non-traffic transport</strong> (169,963) includes off-road vehicles, farm machinery, and rail incidents.</p>
+                </div>
+              </div>
+              <div class="chart-box notes-box">
+                <div class="box-head"><h3>Methodology</h3></div>
+                <div class="notes-content">
+                  <p><strong>Database:</strong> AIHW National Hospital Morbidity Database (NHMD), ICD-10-AM coded records July 2011 – June 2021.</p>
+                  <p><strong>Scope:</strong> Principal diagnosis of transport injury; excludes late-effect codes.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+      <!-- ── PAGE: First Nations ───────────────────────────── -->
+      <section id="page-firstnations" class="db-page">
+        <div class="nav-bar">
+          <div class="tab-group">
+            <button class="nav-btn active" data-tab="tab-trends">Admission Trends &amp; Ratio</button>
+            <button class="nav-btn" data-tab="tab-roaduser-disparity">Road User Disparities</button>
+            <button class="nav-btn" data-tab="tab-severity">Bed Days &amp; Severity</button>
+          </div>
+        </div>
+        <div class="page-content">
+
+          <!-- TAB 1 -->
+          <section id="tab-trends" class="view-panel active">
+            <div class="kpi-strip">
+              <div class="kpi-card">
+                <span class="kpi-label">First Nations Admissions</span>
+                <div class="kpi-val" id="fn-kpi-adm">18,616</div>
+                <span class="kpi-sub" id="fn-kpi-adm-sub">Increased by <strong class="trend-up">+92.5%</strong> from 2011 to 2021</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">First Nations Acute Bed Days</span>
+                <div class="kpi-val" id="fn-kpi-beds">100,025</div>
+                <span class="kpi-sub" id="fn-kpi-beds-sub">Mean stay: <strong>5.37 days</strong> (vs 4.82 non-Indigenous)</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Non-Indigenous Admissions</span>
+                <div class="kpi-val" id="fn-kpi-non">380,684</div>
+                <span class="kpi-sub" id="fn-kpi-non-sub">Total 1,834,954 bed days recorded</span>
+              </div>
+            </div>
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>First Nations Annual Admissions Trend</h3><span class="tag">Adjusts with Year filter</span></div>
+                <div class="canvas-wrap"><canvas id="c-fn-trend"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Comparative Growth Index (2011 Baseline = 100)</h3><span class="tag">Rate of Expansion</span></div>
+                <div class="canvas-wrap"><canvas id="c-growth-index"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>First Nations Bed Days Volume Trend</h3><span class="tag">Acute Hospital Burden</span></div>
+                <div class="canvas-wrap"><canvas id="c-fn-beddays-trend"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Overall Hospitalised Proportion</h3><span class="tag">Cohort Share</span></div>
+                <div class="canvas-wrap"><canvas id="c-cohort-share"></canvas></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 2 -->
+          <section id="tab-roaduser-disparity" class="view-panel">
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>First Nations Road User Composition</h3><span class="tag" id="tag-fn-user">54.8% Car / 19.1% Moto</span></div>
+                <div class="canvas-wrap"><canvas id="c-fn-user-bar"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Non-Indigenous Road User Composition</h3><span class="tag" id="tag-non-user">Higher Cyclist Share</span></div>
+                <div class="canvas-wrap"><canvas id="c-non-user-bar"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Pedestrian Injury Proportion Gap</h3><span class="tag">12.1% FN vs 6.8% Non-Indigenous</span></div>
+                <div class="canvas-wrap"><canvas id="c-pedestrian-gap"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Cyclist Proportion Gap</h3><span class="tag">11.1% FN vs 19.0% Non-Indigenous</span></div>
+                <div class="canvas-wrap"><canvas id="c-cyclist-gap"></canvas></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 3 -->
+          <section id="tab-severity" class="view-panel">
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Average Length of Stay by Road User</h3><span class="tag">FN vs Non-Indigenous</span></div>
+                <div class="canvas-wrap"><canvas id="c-los-comparison"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>First Nations Bed Days by Road User</h3><span class="tag">Acute Hospital Burden</span></div>
+                <div class="canvas-wrap"><canvas id="c-fn-beddays-user"></canvas></div>
+              </div>
+              <div class="chart-box notes-box">
+                <div class="box-head"><h3>Key Findings</h3></div>
+                <div class="notes-content">
+                  <p><strong>Pedestrian stays</strong> are longest (8.16 FN vs 9.10 non-Indigenous days) due to severe trauma mechanisms.</p>
+                  <p><strong>Cyclist stays</strong> are shortest (~2.9 days both groups), reflecting lower-speed incidents.</p>
+                </div>
+              </div>
+              <div class="chart-box notes-box">
+                <div class="box-head"><h3>Equity Context</h3></div>
+                <div class="notes-content">
+                  <p><strong>First Nations people</strong> represent only 4.7% of the population but show a 92.5% admission growth rate vs 15.9% for non-Indigenous over the same decade.</p>
+                  <p><strong>Remoteness</strong> is a major driver of longer stays and higher pedestrian proportions.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+      <!-- ── PAGE: State & Territory ───────────────────────── -->
+      <section id="page-state" class="db-page">
+        <div class="nav-bar">
+          <div class="tab-group">
+            <button class="nav-btn active" data-tab="tab-rankings">State Overview</button>
+            <button class="nav-btn" data-tab="tab-users">State Road Users</button>
+            <button class="nav-btn" data-tab="tab-length">Length of Stay</button>
+          </div>
+        </div>
+        <div class="page-content">
+
+          <!-- TAB 1 -->
+          <section id="tab-rankings" class="view-panel active">
+            <div class="kpi-strip">
+              <div class="kpi-card">
+                <span class="kpi-label">Largest State (NSW)</span>
+                <div class="kpi-val">116,060</div>
+                <span class="kpi-sub">Hospitalisations · Avg 5.20 days stay</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">National Total</span>
+                <div class="kpi-val" id="kpi-juris-tot">401,766</div>
+                <span class="kpi-sub">Across all 8 Australian States &amp; Territories</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Active View</span>
+                <div class="kpi-val" style="font-size:1rem" id="state-active-badge">All States</div>
+                <span class="kpi-sub">Use State filter above to highlight a jurisdiction</span>
+              </div>
+            </div>
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Hospitalised Injuries by Jurisdiction</h3><span class="tag">Ranked Totals</span></div>
+                <div class="canvas-wrap"><canvas id="c-state-rankings"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>State Proportion Share (%)</h3><span class="tag">Percentage Distribution</span></div>
+                <div class="canvas-wrap"><canvas id="c-state-share"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Average Hospital Bed Days by State</h3><span class="tag">Severity Marker</span></div>
+                <div class="canvas-wrap"><canvas id="c-state-los"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Annual Inpatient Trend: Top 3 States</h3><span class="tag" id="tag-state-annual">NSW vs VIC vs QLD (2011–2021)</span></div>
+                <div class="canvas-wrap"><canvas id="c-state-annual"></canvas></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 2 -->
+          <section id="tab-users" class="view-panel">
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Car, Van &amp; Ute Injuries by State</h3><span class="tag">Leading Category</span></div>
+                <div class="canvas-wrap"><canvas id="c-car-state"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Cyclist Hospitalisations by State</h3><span class="tag">Urban Vulnerability</span></div>
+                <div class="canvas-wrap"><canvas id="c-cyclist-state"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Motorcyclist Admissions by State</h3><span class="tag">High-Risk Users</span></div>
+                <div class="canvas-wrap"><canvas id="c-moto-state"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Pedestrian Injuries across Jurisdictions</h3><span class="tag">Pedestrian Trauma</span></div>
+                <div class="canvas-wrap"><canvas id="c-ped-state"></canvas></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 3 -->
+          <section id="tab-length" class="view-panel">
+            <div class="chart-quad">
+              <div class="chart-box">
+                <div class="box-head"><h3>Total Inpatient Days by State</h3><span class="tag">Absolute Healthcare Load</span></div>
+                <div class="canvas-wrap"><canvas id="c-tot-beddays-state"></canvas></div>
+              </div>
+              <div class="chart-box">
+                <div class="box-head"><h3>Stay Duration vs National Average (4.89d)</h3><span class="tag">Deviation Metric</span></div>
+                <div class="canvas-wrap"><canvas id="c-deviation-bench"></canvas></div>
+              </div>
+              <div class="chart-box notes-box">
+                <div class="box-head"><h3>Remoteness &amp; Regional Factors</h3></div>
+                <div class="notes-content">
+                  <p><strong>Northern Territory &amp; Tasmania:</strong> Display longer average stay per injury (5.63 and 5.49 days) largely due to remote transfer distances, higher severity, and post-stabilisation stays.</p>
+                  <p><strong>ACT:</strong> Shortest average length of stay (4.08 days) reflecting compact urban road networks and proximity to trauma centres.</p>
+                </div>
+              </div>
+              <div class="chart-box notes-box">
+                <div class="box-head"><h3>State Reporting Standardization</h3></div>
+                <div class="notes-content">
+                  <p><strong>Database:</strong> Extracted from state_road_user.csv spanning July 2011 to June 2021.</p>
+                  <p><strong>Completeness:</strong> Counts are attributed to the state where hospitalisation occurred.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+    <footer class="app-footer">
+      <span>AIHW Australian Road Trauma Dashboard &bull; 2011–2021</span>
+      <span>Three-Module Unified View &bull; Chart.js Powered</span>
+    </footer>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
