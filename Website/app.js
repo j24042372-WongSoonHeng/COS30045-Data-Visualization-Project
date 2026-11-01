@@ -27,7 +27,7 @@ function matchRoadUser(rawUser, targetLabel) {
     case "Motorcyclist":
       return norm.includes("motorcycl");
     case "Cyclist":
-      return norm.includes("cyclist") || norm === "cyclist";
+      return norm === "cyclist";
     case "Pedestrian":
       return norm.includes("pedestrian");
     case "Heavy transport":
@@ -613,7 +613,7 @@ function updateNatRoadUsers(year) {
     const tagPed = document.getElementById("tag-ped-trend");
     if (tagPed) {
       tagPed.textContent = isAll
-        ? "Declining Pattern (2011–2021)"
+        ? "Annual admissions (2011–2021)"
         : `Highlighted Year: ${year} (${pedHospYear.toLocaleString()} admissions)`;
     }
   }
