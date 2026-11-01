@@ -336,19 +336,31 @@
           <section id="tab-users" class="view-panel">
             <div class="chart-quad">
               <div class="chart-box">
-                <div class="box-head"><h3>Car, Van &amp; Ute Injuries by State</h3><span class="tag">Leading Category</span></div>
+                <div class="box-head">
+                  <h3>Car, Van &amp; Ute Injuries by State</h3>
+                  <span class="tag" style="background:#0072B2; color:#ffffff; font-weight:600">Car, van, ute</span>
+                </div>
                 <div class="canvas-wrap"><canvas id="c-car-state"></canvas></div>
               </div>
               <div class="chart-box">
-                <div class="box-head"><h3>Cyclist Hospitalisations by State</h3><span class="tag">Urban Vulnerability</span></div>
+                <div class="box-head">
+                  <h3>Cyclist Hospitalisations by State</h3>
+                  <span class="tag" style="background:#009E73; color:#ffffff; font-weight:600">Cyclist</span>
+                </div>
                 <div class="canvas-wrap"><canvas id="c-cyclist-state"></canvas></div>
               </div>
               <div class="chart-box">
-                <div class="box-head"><h3>Motorcyclist Admissions by State</h3><span class="tag">High-Risk Users</span></div>
+                <div class="box-head">
+                  <h3>Motorcyclist Admissions by State</h3>
+                  <span class="tag" style="background:#D55E00; color:#ffffff; font-weight:600">Motorcyclist</span>
+                </div>
                 <div class="canvas-wrap"><canvas id="c-moto-state"></canvas></div>
               </div>
               <div class="chart-box">
-                <div class="box-head"><h3>Pedestrian Injuries across Jurisdictions</h3><span class="tag">Pedestrian Trauma</span></div>
+                <div class="box-head">
+                  <h3>Pedestrian Injuries across Jurisdictions</h3>
+                  <span class="tag" style="background:#CC79A7; color:#ffffff; font-weight:600">Pedestrian</span>
+                </div>
                 <div class="canvas-wrap"><canvas id="c-ped-state"></canvas></div>
               </div>
             </div>
@@ -394,6 +406,12 @@
     </footer>
 
   </div>
-  <script src="app.js"></script>
+  <!-- Modular JavaScript Architecture -->
+  <script src="js/shared-constants.js"></script>
+  <script src="js/barchart.js"></script>
+  <script src="js/linechart.js"></script>
+  <script src="js/doughnutchart.js"></script>
+  <script src="js/interaction.js"></script>
+  <script src="js/load-data.js"></script>
 </body>
 </html>
