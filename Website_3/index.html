@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Australian Road Trauma Dashboard | AIHW data</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script defer src="js/shared-constants.js"></script>
+  <script defer src="js/barchart.js"></script>
+  <script defer src="js/verticalchart.js"></script>
+  <script defer src="js/linechart.js"></script>
+  <script defer src="js/doughnutchart.js"></script>
+  <script defer src="js/heatmap.js"></script>
+  <script defer src="js/interaction.js"></script>
+  <script defer src="js/load-data.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="shell">
+      <h1>Australian Road Trauma Dashboard</h1>
+      <p>Hospitalisations and inpatient days from road crashes, 2011–2021</p>
+    </div>
+  </header>
+
+  <main class="shell app-main">
+    <fieldset class="data-views">
+      <legend>Data view</legend>
+      <div class="data-choices">
+        <label class="data-choice">
+          <input type="radio" name="data-view" value="national" aria-describedby="guide-national" checked>
+          <span class="choice-title">National Overview</span>
+          <span id="guide-national" class="choice-description">See how road crash hospitalisations changed across Australia and which road users accounted for the most admissions and bed days.</span>
+        </label>
+        <label class="data-choice">
+          <input type="radio" name="data-view" value="firstnations" aria-describedby="guide-firstnations">
+          <span class="choice-title">First Nations</span>
+          <span id="guide-firstnations" class="choice-description">Compare admission trends, road user shares and hospital stays for First Nations and non-Indigenous people.</span>
+        </label>
+        <label class="data-choice">
+          <input type="radio" name="data-view" value="state" aria-describedby="guide-state">
+          <span class="choice-title">State &amp; Territory</span>
+          <span id="guide-state" class="choice-description">Compare counts and inpatient days across Australia’s eight states and territories, or explore one jurisdiction’s trend.</span>
+        </label>
+      </div>
+      <p class="active-view-description" id="active-view-description"></p>
+    </fieldset>
+
+    <div class="filter-bar">
+      <label class="filter-item" for="filter-year">Year
+        <select id="filter-year" aria-describedby="filter-hint" disabled>
+          <option value="all">All years</option>
+        </select>
+      </label>
+      <label class="filter-item" for="filter-state" id="state-filter-label" hidden>State or territory
+        <select id="filter-state" aria-describedby="filter-hint" disabled>
+          <option value="all">All jurisdictions</option>
+        </select>
+      </label>
+      <button type="button" id="btn-reset-all" disabled>Reset filters</button>
+      <p id="filter-hint">Year filters totals and shares and highlights the timeline.</p>
+    </div>
+
+    <p id="db-loading" class="load-status" role="status">Loading AIHW data…</p>
+    <div id="dashboard-content" hidden>
+      <div id="view-tabs" class="tab-group" role="tablist" aria-label="Dashboard topics"></div>
+      <section id="view-panel" class="view-panel" role="tabpanel" tabindex="0"></section>
+    </div>
+    <noscript><p class="load-status">Enable JavaScript to explore the dashboard.</p></noscript>
+  </main>
+
+  <footer class="app-footer shell">
+    <span>Source: Australian Institute of Health and Welfare (AIHW), 2011–2021</span>
+    <span>Figures describe hospitalisations and inpatient days from the supplied datasets.</span>
+  </footer>
+
+  <div class="mark-tooltip" id="mark-tooltip" aria-hidden="true" hidden></div>
+</body>
+</html>
