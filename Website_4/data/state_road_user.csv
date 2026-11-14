@@ -1,0 +1,1211 @@
+"state","year","period","road_user","hosp","bed_days_excl_died"
+"ACT","2011","Jan-Jun","Bus occupant",0,0
+"ACT","2011","Jan-Jun","Car, van or ute",103,628
+"ACT","2011","Jan-Jun","Cyclist",85,239
+"ACT","2011","Jan-Jun","Heavy transport",0,0
+"ACT","2011","Jan-Jun","Motorcyclist",67,277
+"ACT","2011","Jan-Jun","Other or unknown",0,0
+"ACT","2011","Jan-Jun","Pedestrian",21,282
+"ACT","2011","Jul-Dec","Bus occupant",0,0
+"ACT","2011","Jul-Dec","Car, van or ute",95,295
+"ACT","2011","Jul-Dec","Cyclist",64,190
+"ACT","2011","Jul-Dec","Heavy transport",0,0
+"ACT","2011","Jul-Dec","Motorcyclist",77,372
+"ACT","2011","Jul-Dec","Other or unknown",0,0
+"ACT","2011","Jul-Dec","Pedestrian",9,177
+"ACT","2012","Jan-Jun","Bus occupant",0,0
+"ACT","2012","Jan-Jun","Car, van or ute",131,602
+"ACT","2012","Jan-Jun","Cyclist",82,298
+"ACT","2012","Jan-Jun","Heavy transport",0,0
+"ACT","2012","Jan-Jun","Motorcyclist",84,280
+"ACT","2012","Jan-Jun","Other or unknown",0,0
+"ACT","2012","Jan-Jun","Pedestrian",13,96
+"ACT","2012","Jul-Dec","Bus occupant",0,0
+"ACT","2012","Jul-Dec","Car, van or ute",106,389
+"ACT","2012","Jul-Dec","Cyclist",91,229
+"ACT","2012","Jul-Dec","Heavy transport",0,0
+"ACT","2012","Jul-Dec","Motorcyclist",60,243
+"ACT","2012","Jul-Dec","Other or unknown",11,22
+"ACT","2012","Jul-Dec","Pedestrian",14,66
+"ACT","2013","Jan-Jun","Bus occupant",0,0
+"ACT","2013","Jan-Jun","Car, van or ute",110,574
+"ACT","2013","Jan-Jun","Cyclist",100,301
+"ACT","2013","Jan-Jun","Heavy transport",0,0
+"ACT","2013","Jan-Jun","Motorcyclist",72,349
+"ACT","2013","Jan-Jun","Other or unknown",5,42
+"ACT","2013","Jan-Jun","Pedestrian",14,179
+"ACT","2013","Jul-Dec","Bus occupant",0,0
+"ACT","2013","Jul-Dec","Car, van or ute",102,371
+"ACT","2013","Jul-Dec","Cyclist",74,174
+"ACT","2013","Jul-Dec","Motorcyclist",65,262
+"ACT","2013","Jul-Dec","Other or unknown",0,0
+"ACT","2013","Jul-Dec","Pedestrian",19,178
+"ACT","2014","Jan-Jun","Bus occupant",0,0
+"ACT","2014","Jan-Jun","Car, van or ute",132,567
+"ACT","2014","Jan-Jun","Cyclist",83,240
+"ACT","2014","Jan-Jun","Heavy transport",0,0
+"ACT","2014","Jan-Jun","Motorcyclist",50,184
+"ACT","2014","Jan-Jun","Other or unknown",0,0
+"ACT","2014","Jan-Jun","Pedestrian",8,17
+"ACT","2014","Jul-Dec","Bus occupant",0,0
+"ACT","2014","Jul-Dec","Car, van or ute",100,376
+"ACT","2014","Jul-Dec","Cyclist",96,190
+"ACT","2014","Jul-Dec","Heavy transport",0,0
+"ACT","2014","Jul-Dec","Motorcyclist",52,339
+"ACT","2014","Jul-Dec","Other or unknown",0,0
+"ACT","2014","Jul-Dec","Pedestrian",12,94
+"ACT","2015","Jan-Jun","Bus occupant",0,0
+"ACT","2015","Jan-Jun","Car, van or ute",113,407
+"ACT","2015","Jan-Jun","Cyclist",131,396
+"ACT","2015","Jan-Jun","Heavy transport",6,6
+"ACT","2015","Jan-Jun","Motorcyclist",69,374
+"ACT","2015","Jan-Jun","Other or unknown",0,0
+"ACT","2015","Jan-Jun","Pedestrian",12,86
+"ACT","2015","Jul-Dec","Bus occupant",12,51
+"ACT","2015","Jul-Dec","Car, van or ute",162,756
+"ACT","2015","Jul-Dec","Cyclist",91,269
+"ACT","2015","Jul-Dec","Heavy transport",0,0
+"ACT","2015","Jul-Dec","Motorcyclist",76,329
+"ACT","2015","Jul-Dec","Other or unknown",0,0
+"ACT","2015","Jul-Dec","Pedestrian",15,174
+"ACT","2016","Jan-Jun","Bus occupant",0,0
+"ACT","2016","Jan-Jun","Car, van or ute",127,599
+"ACT","2016","Jan-Jun","Cyclist",109,294
+"ACT","2016","Jan-Jun","Heavy transport",0,0
+"ACT","2016","Jan-Jun","Motorcyclist",72,296
+"ACT","2016","Jan-Jun","Other or unknown",5,5
+"ACT","2016","Jan-Jun","Pedestrian",16,189
+"ACT","2016","Jul-Dec","Bus occupant",0,0
+"ACT","2016","Jul-Dec","Car, van or ute",123,564
+"ACT","2016","Jul-Dec","Cyclist",106,219
+"ACT","2016","Jul-Dec","Motorcyclist",75,331
+"ACT","2016","Jul-Dec","Other or unknown",0,0
+"ACT","2016","Jul-Dec","Pedestrian",12,88
+"ACT","2017","Jan-Jun","Bus occupant",0,0
+"ACT","2017","Jan-Jun","Car, van or ute",112,498
+"ACT","2017","Jan-Jun","Cyclist",135,363
+"ACT","2017","Jan-Jun","Heavy transport",0,0
+"ACT","2017","Jan-Jun","Motorcyclist",64,208
+"ACT","2017","Jan-Jun","Other or unknown",0,0
+"ACT","2017","Jan-Jun","Pedestrian",17,86
+"ACT","2017","Jul-Dec","Bus occupant",0,0
+"ACT","2017","Jul-Dec","Car, van or ute",138,701
+"ACT","2017","Jul-Dec","Cyclist",76,246
+"ACT","2017","Jul-Dec","Heavy transport",0,0
+"ACT","2017","Jul-Dec","Motorcyclist",55,246
+"ACT","2017","Jul-Dec","Other or unknown",0,0
+"ACT","2017","Jul-Dec","Pedestrian",17,205
+"ACT","2018","Jan-Jun","Bus occupant",0,0
+"ACT","2018","Jan-Jun","Car, van or ute",160,584
+"ACT","2018","Jan-Jun","Cyclist",104,195
+"ACT","2018","Jan-Jun","Heavy transport",0,0
+"ACT","2018","Jan-Jun","Motorcyclist",87,373
+"ACT","2018","Jan-Jun","Other or unknown",0,0
+"ACT","2018","Jan-Jun","Pedestrian",9,76
+"ACT","2018","Jul-Dec","Car, van or ute",127,626
+"ACT","2018","Jul-Dec","Cyclist",113,204
+"ACT","2018","Jul-Dec","Heavy transport",0,0
+"ACT","2018","Jul-Dec","Motorcyclist",74,650
+"ACT","2018","Jul-Dec","Other or unknown",9,41
+"ACT","2018","Jul-Dec","Pedestrian",15,152
+"ACT","2019","Jan-Jun","Car, van or ute",159,640
+"ACT","2019","Jan-Jun","Cyclist",120,243
+"ACT","2019","Jan-Jun","Heavy transport",0,0
+"ACT","2019","Jan-Jun","Motorcyclist",65,440
+"ACT","2019","Jan-Jun","Other or unknown",0,0
+"ACT","2019","Jan-Jun","Pedestrian",14,39
+"ACT","2019","Jul-Dec","Bus occupant",0,0
+"ACT","2019","Jul-Dec","Car, van or ute",120,437
+"ACT","2019","Jul-Dec","Cyclist",98,421
+"ACT","2019","Jul-Dec","Heavy transport",0,0
+"ACT","2019","Jul-Dec","Motorcyclist",71,468
+"ACT","2019","Jul-Dec","Other or unknown",0,0
+"ACT","2019","Jul-Dec","Pedestrian",8,75
+"ACT","2020","Jan-Jun","Bus occupant",0,0
+"ACT","2020","Jan-Jun","Car, van or ute",106,803
+"ACT","2020","Jan-Jun","Cyclist",99,169
+"ACT","2020","Jan-Jun","Motorcyclist",68,334
+"ACT","2020","Jan-Jun","Other or unknown",6,108
+"ACT","2020","Jan-Jun","Pedestrian",5,30
+"ACT","2020","Jul-Dec","Bus occupant",0,0
+"ACT","2020","Jul-Dec","Car, van or ute",124,448
+"ACT","2020","Jul-Dec","Cyclist",124,343
+"ACT","2020","Jul-Dec","Heavy transport",0,0
+"ACT","2020","Jul-Dec","Motorcyclist",74,220
+"ACT","2020","Jul-Dec","Other or unknown",6,7
+"ACT","2020","Jul-Dec","Pedestrian",9,38
+"ACT","2021","Jan-Jun","Car, van or ute",146,798
+"ACT","2021","Jan-Jun","Cyclist",183,436
+"ACT","2021","Jan-Jun","Motorcyclist",93,323
+"ACT","2021","Jan-Jun","Other or unknown",0,0
+"ACT","2021","Jan-Jun","Pedestrian",14,74
+"ACT","2021","Jul-Dec","Car, van or ute",88,239
+"ACT","2021","Jul-Dec","Cyclist",150,528
+"ACT","2021","Jul-Dec","Motorcyclist",51,218
+"ACT","2021","Jul-Dec","Other or unknown",0,0
+"ACT","2021","Jul-Dec","Pedestrian",8,116
+"NSW","2011","Jan-Jun","Bus occupant",52,219
+"NSW","2011","Jan-Jun","Car, van or ute",2563,12496
+"NSW","2011","Jan-Jun","Cyclist",770,2251
+"NSW","2011","Jan-Jun","Heavy transport",82,364
+"NSW","2011","Jan-Jun","Motorcyclist",1191,6147
+"NSW","2011","Jan-Jun","Other or unknown",68,400
+"NSW","2011","Jan-Jun","Pedestrian",497,4212
+"NSW","2011","Jul-Dec","Bus occupant",38,151
+"NSW","2011","Jul-Dec","Car, van or ute",2785,11362
+"NSW","2011","Jul-Dec","Cyclist",717,1971
+"NSW","2011","Jul-Dec","Heavy transport",79,372
+"NSW","2011","Jul-Dec","Motorcyclist",1202,5716
+"NSW","2011","Jul-Dec","Other or unknown",104,555
+"NSW","2011","Jul-Dec","Pedestrian",470,4128
+"NSW","2012","Jan-Jun","Bus occupant",41,156
+"NSW","2012","Jan-Jun","Car, van or ute",2739,11250
+"NSW","2012","Jan-Jun","Cyclist",826,2268
+"NSW","2012","Jan-Jun","Heavy transport",66,261
+"NSW","2012","Jan-Jun","Motorcyclist",1244,6146
+"NSW","2012","Jan-Jun","Other or unknown",56,329
+"NSW","2012","Jan-Jun","Pedestrian",458,3275
+"NSW","2012","Jul-Dec","Bus occupant",50,267
+"NSW","2012","Jul-Dec","Car, van or ute",2768,11666
+"NSW","2012","Jul-Dec","Cyclist",841,2363
+"NSW","2012","Jul-Dec","Heavy transport",76,420
+"NSW","2012","Jul-Dec","Motorcyclist",1382,6714
+"NSW","2012","Jul-Dec","Other or unknown",77,333
+"NSW","2012","Jul-Dec","Pedestrian",497,4510
+"NSW","2013","Jan-Jun","Bus occupant",45,271
+"NSW","2013","Jan-Jun","Car, van or ute",2743,10694
+"NSW","2013","Jan-Jun","Cyclist",893,2654
+"NSW","2013","Jan-Jun","Heavy transport",47,221
+"NSW","2013","Jan-Jun","Motorcyclist",1206,5610
+"NSW","2013","Jan-Jun","Other or unknown",68,277
+"NSW","2013","Jan-Jun","Pedestrian",466,3158
+"NSW","2013","Jul-Dec","Bus occupant",37,170
+"NSW","2013","Jul-Dec","Car, van or ute",2909,10518
+"NSW","2013","Jul-Dec","Cyclist",942,2307
+"NSW","2013","Jul-Dec","Heavy transport",80,342
+"NSW","2013","Jul-Dec","Motorcyclist",1364,6520
+"NSW","2013","Jul-Dec","Other or unknown",94,636
+"NSW","2013","Jul-Dec","Pedestrian",527,3661
+"NSW","2014","Jan-Jun","Bus occupant",48,373
+"NSW","2014","Jan-Jun","Car, van or ute",2662,10435
+"NSW","2014","Jan-Jun","Cyclist",1005,2679
+"NSW","2014","Jan-Jun","Heavy transport",77,439
+"NSW","2014","Jan-Jun","Motorcyclist",1296,5389
+"NSW","2014","Jan-Jun","Other or unknown",59,313
+"NSW","2014","Jan-Jun","Pedestrian",475,3671
+"NSW","2014","Jul-Dec","Bus occupant",59,255
+"NSW","2014","Jul-Dec","Car, van or ute",2730,10396
+"NSW","2014","Jul-Dec","Cyclist",897,2320
+"NSW","2014","Jul-Dec","Heavy transport",68,225
+"NSW","2014","Jul-Dec","Motorcyclist",1340,5690
+"NSW","2014","Jul-Dec","Other or unknown",72,241
+"NSW","2014","Jul-Dec","Pedestrian",525,3614
+"NSW","2015","Jan-Jun","Bus occupant",45,394
+"NSW","2015","Jan-Jun","Car, van or ute",2798,10492
+"NSW","2015","Jan-Jun","Cyclist",939,2199
+"NSW","2015","Jan-Jun","Heavy transport",72,421
+"NSW","2015","Jan-Jun","Motorcyclist",1233,5055
+"NSW","2015","Jan-Jun","Other or unknown",66,234
+"NSW","2015","Jan-Jun","Pedestrian",468,2796
+"NSW","2015","Jul-Dec","Bus occupant",51,234
+"NSW","2015","Jul-Dec","Car, van or ute",2695,15202
+"NSW","2015","Jul-Dec","Cyclist",854,2697
+"NSW","2015","Jul-Dec","Heavy transport",91,718
+"NSW","2015","Jul-Dec","Motorcyclist",1226,8794
+"NSW","2015","Jul-Dec","Other or unknown",63,513
+"NSW","2015","Jul-Dec","Pedestrian",483,4582
+"NSW","2016","Jan-Jun","Bus occupant",51,215
+"NSW","2016","Jan-Jun","Car, van or ute",2825,13050
+"NSW","2016","Jan-Jun","Cyclist",955,3049
+"NSW","2016","Jan-Jun","Heavy transport",59,461
+"NSW","2016","Jan-Jun","Motorcyclist",1345,8322
+"NSW","2016","Jan-Jun","Other or unknown",69,450
+"NSW","2016","Jan-Jun","Pedestrian",472,4766
+"NSW","2016","Jul-Dec","Bus occupant",63,311
+"NSW","2016","Jul-Dec","Car, van or ute",2881,12803
+"NSW","2016","Jul-Dec","Cyclist",820,2209
+"NSW","2016","Jul-Dec","Heavy transport",74,555
+"NSW","2016","Jul-Dec","Motorcyclist",1303,8053
+"NSW","2016","Jul-Dec","Other or unknown",65,403
+"NSW","2016","Jul-Dec","Pedestrian",492,5702
+"NSW","2017","Jan-Jun","Bus occupant",55,415
+"NSW","2017","Jan-Jun","Car, van or ute",2741,11515
+"NSW","2017","Jan-Jun","Cyclist",906,3069
+"NSW","2017","Jan-Jun","Heavy transport",75,287
+"NSW","2017","Jan-Jun","Motorcyclist",1296,8418
+"NSW","2017","Jan-Jun","Other or unknown",66,532
+"NSW","2017","Jan-Jun","Pedestrian",461,4121
+"NSW","2017","Jul-Dec","Bus occupant",54,321
+"NSW","2017","Jul-Dec","Car, van or ute",2636,12749
+"NSW","2017","Jul-Dec","Cyclist",885,3563
+"NSW","2017","Jul-Dec","Heavy transport",72,483
+"NSW","2017","Jul-Dec","Motorcyclist",1230,7951
+"NSW","2017","Jul-Dec","Other or unknown",71,554
+"NSW","2017","Jul-Dec","Pedestrian",468,5536
+"NSW","2018","Jan-Jun","Bus occupant",39,173
+"NSW","2018","Jan-Jun","Car, van or ute",2262,12383
+"NSW","2018","Jan-Jun","Cyclist",864,2928
+"NSW","2018","Jan-Jun","Heavy transport",73,312
+"NSW","2018","Jan-Jun","Motorcyclist",1187,7308
+"NSW","2018","Jan-Jun","Other or unknown",77,551
+"NSW","2018","Jan-Jun","Pedestrian",415,3993
+"NSW","2018","Jul-Dec","Bus occupant",53,349
+"NSW","2018","Jul-Dec","Car, van or ute",2275,13839
+"NSW","2018","Jul-Dec","Cyclist",817,2837
+"NSW","2018","Jul-Dec","Heavy transport",78,1164
+"NSW","2018","Jul-Dec","Motorcyclist",1160,7633
+"NSW","2018","Jul-Dec","Other or unknown",86,731
+"NSW","2018","Jul-Dec","Pedestrian",408,5323
+"NSW","2019","Jan-Jun","Bus occupant",49,170
+"NSW","2019","Jan-Jun","Car, van or ute",2204,13705
+"NSW","2019","Jan-Jun","Cyclist",886,3150
+"NSW","2019","Jan-Jun","Heavy transport",68,928
+"NSW","2019","Jan-Jun","Motorcyclist",1265,8203
+"NSW","2019","Jan-Jun","Other or unknown",78,693
+"NSW","2019","Jan-Jun","Pedestrian",439,5220
+"NSW","2019","Jul-Dec","Bus occupant",48,187
+"NSW","2019","Jul-Dec","Car, van or ute",2245,12555
+"NSW","2019","Jul-Dec","Cyclist",792,2574
+"NSW","2019","Jul-Dec","Heavy transport",59,152
+"NSW","2019","Jul-Dec","Motorcyclist",1300,8651
+"NSW","2019","Jul-Dec","Other or unknown",90,1354
+"NSW","2019","Jul-Dec","Pedestrian",419,5456
+"NSW","2020","Jan-Jun","Bus occupant",32,239
+"NSW","2020","Jan-Jun","Car, van or ute",1743,10774
+"NSW","2020","Jan-Jun","Cyclist",963,3373
+"NSW","2020","Jan-Jun","Heavy transport",55,411
+"NSW","2020","Jan-Jun","Motorcyclist",1035,6681
+"NSW","2020","Jan-Jun","Other or unknown",64,785
+"NSW","2020","Jan-Jun","Pedestrian",299,3643
+"NSW","2020","Jul-Dec","Bus occupant",32,195
+"NSW","2020","Jul-Dec","Car, van or ute",2259,13606
+"NSW","2020","Jul-Dec","Cyclist",987,3993
+"NSW","2020","Jul-Dec","Heavy transport",70,369
+"NSW","2020","Jul-Dec","Motorcyclist",1300,8581
+"NSW","2020","Jul-Dec","Other or unknown",74,649
+"NSW","2020","Jul-Dec","Pedestrian",361,5072
+"NSW","2021","Jan-Jun","Bus occupant",32,132
+"NSW","2021","Jan-Jun","Car, van or ute",2203,13783
+"NSW","2021","Jan-Jun","Cyclist",984,3603
+"NSW","2021","Jan-Jun","Heavy transport",54,321
+"NSW","2021","Jan-Jun","Motorcyclist",1265,8386
+"NSW","2021","Jan-Jun","Other or unknown",86,818
+"NSW","2021","Jan-Jun","Pedestrian",381,4081
+"NSW","2021","Jul-Dec","Bus occupant",18,123
+"NSW","2021","Jul-Dec","Car, van or ute",1539,10109
+"NSW","2021","Jul-Dec","Cyclist",1058,3488
+"NSW","2021","Jul-Dec","Heavy transport",49,369
+"NSW","2021","Jul-Dec","Motorcyclist",988,5599
+"NSW","2021","Jul-Dec","Other or unknown",78,627
+"NSW","2021","Jul-Dec","Pedestrian",268,3659
+"NT","2011","Jan-Jun","Bus occupant",0,0
+"NT","2011","Jan-Jun","Car, van or ute",93,803
+"NT","2011","Jan-Jun","Cyclist",25,91
+"NT","2011","Jan-Jun","Motorcyclist",49,433
+"NT","2011","Jan-Jun","Other or unknown",16,55
+"NT","2011","Jan-Jun","Pedestrian",26,409
+"NT","2011","Jul-Dec","Car, van or ute",123,733
+"NT","2011","Jul-Dec","Cyclist",37,98
+"NT","2011","Jul-Dec","Motorcyclist",57,275
+"NT","2011","Jul-Dec","Other or unknown",8,48
+"NT","2011","Jul-Dec","Pedestrian",18,44
+"NT","2012","Jan-Jun","Bus occupant",0,0
+"NT","2012","Jan-Jun","Car, van or ute",106,620
+"NT","2012","Jan-Jun","Cyclist",19,39
+"NT","2012","Jan-Jun","Heavy transport",0,0
+"NT","2012","Jan-Jun","Motorcyclist",52,308
+"NT","2012","Jan-Jun","Other or unknown",5,26
+"NT","2012","Jan-Jun","Pedestrian",29,290
+"NT","2012","Jul-Dec","Bus occupant",0,0
+"NT","2012","Jul-Dec","Car, van or ute",141,738
+"NT","2012","Jul-Dec","Cyclist",26,145
+"NT","2012","Jul-Dec","Heavy transport",7,18
+"NT","2012","Jul-Dec","Motorcyclist",66,352
+"NT","2012","Jul-Dec","Other or unknown",8,63
+"NT","2012","Jul-Dec","Pedestrian",22,289
+"NT","2013","Jan-Jun","Bus occupant",0,0
+"NT","2013","Jan-Jun","Car, van or ute",120,757
+"NT","2013","Jan-Jun","Cyclist",36,128
+"NT","2013","Jan-Jun","Heavy transport",0,0
+"NT","2013","Jan-Jun","Motorcyclist",68,519
+"NT","2013","Jan-Jun","Other or unknown",0,0
+"NT","2013","Jan-Jun","Pedestrian",20,199
+"NT","2013","Jul-Dec","Bus occupant",0,0
+"NT","2013","Jul-Dec","Car, van or ute",182,1122
+"NT","2013","Jul-Dec","Cyclist",34,123
+"NT","2013","Jul-Dec","Heavy transport",0,0
+"NT","2013","Jul-Dec","Motorcyclist",53,433
+"NT","2013","Jul-Dec","Other or unknown",0,0
+"NT","2013","Jul-Dec","Pedestrian",22,233
+"NT","2014","Jan-Jun","Bus occupant",7,43
+"NT","2014","Jan-Jun","Car, van or ute",140,710
+"NT","2014","Jan-Jun","Cyclist",27,73
+"NT","2014","Jan-Jun","Heavy transport",0,0
+"NT","2014","Jan-Jun","Motorcyclist",79,407
+"NT","2014","Jan-Jun","Other or unknown",0,0
+"NT","2014","Jan-Jun","Pedestrian",33,276
+"NT","2014","Jul-Dec","Car, van or ute",136,621
+"NT","2014","Jul-Dec","Cyclist",38,97
+"NT","2014","Jul-Dec","Heavy transport",5,51
+"NT","2014","Jul-Dec","Motorcyclist",71,491
+"NT","2014","Jul-Dec","Other or unknown",0,0
+"NT","2014","Jul-Dec","Pedestrian",26,142
+"NT","2015","Jan-Jun","Bus occupant",0,0
+"NT","2015","Jan-Jun","Car, van or ute",152,711
+"NT","2015","Jan-Jun","Cyclist",41,116
+"NT","2015","Jan-Jun","Heavy transport",0,0
+"NT","2015","Jan-Jun","Motorcyclist",81,287
+"NT","2015","Jan-Jun","Other or unknown",0,0
+"NT","2015","Jan-Jun","Pedestrian",41,229
+"NT","2015","Jul-Dec","Bus occupant",0,0
+"NT","2015","Jul-Dec","Car, van or ute",202,968
+"NT","2015","Jul-Dec","Cyclist",40,97
+"NT","2015","Jul-Dec","Heavy transport",0,0
+"NT","2015","Jul-Dec","Motorcyclist",88,477
+"NT","2015","Jul-Dec","Other or unknown",0,0
+"NT","2015","Jul-Dec","Pedestrian",30,473
+"NT","2016","Jan-Jun","Bus occupant",5,11
+"NT","2016","Jan-Jun","Car, van or ute",164,721
+"NT","2016","Jan-Jun","Cyclist",33,106
+"NT","2016","Jan-Jun","Heavy transport",0,0
+"NT","2016","Jan-Jun","Motorcyclist",67,249
+"NT","2016","Jan-Jun","Other or unknown",6,21
+"NT","2016","Jan-Jun","Pedestrian",22,336
+"NT","2016","Jul-Dec","Bus occupant",0,0
+"NT","2016","Jul-Dec","Car, van or ute",222,1252
+"NT","2016","Jul-Dec","Cyclist",37,65
+"NT","2016","Jul-Dec","Heavy transport",5,11
+"NT","2016","Jul-Dec","Motorcyclist",84,471
+"NT","2016","Jul-Dec","Other or unknown",0,0
+"NT","2016","Jul-Dec","Pedestrian",37,407
+"NT","2017","Jan-Jun","Car, van or ute",138,924
+"NT","2017","Jan-Jun","Cyclist",37,120
+"NT","2017","Jan-Jun","Heavy transport",7,44
+"NT","2017","Jan-Jun","Motorcyclist",63,277
+"NT","2017","Jan-Jun","Other or unknown",0,0
+"NT","2017","Jan-Jun","Pedestrian",42,241
+"NT","2017","Jul-Dec","Car, van or ute",228,1167
+"NT","2017","Jul-Dec","Cyclist",37,76
+"NT","2017","Jul-Dec","Heavy transport",0,0
+"NT","2017","Jul-Dec","Motorcyclist",86,604
+"NT","2017","Jul-Dec","Other or unknown",9,60
+"NT","2017","Jul-Dec","Pedestrian",37,393
+"NT","2018","Jan-Jun","Bus occupant",0,0
+"NT","2018","Jan-Jun","Car, van or ute",253,1253
+"NT","2018","Jan-Jun","Cyclist",35,72
+"NT","2018","Jan-Jun","Heavy transport",0,0
+"NT","2018","Jan-Jun","Motorcyclist",77,504
+"NT","2018","Jan-Jun","Other or unknown",0,0
+"NT","2018","Jan-Jun","Pedestrian",36,260
+"NT","2018","Jul-Dec","Bus occupant",0,0
+"NT","2018","Jul-Dec","Car, van or ute",242,1829
+"NT","2018","Jul-Dec","Cyclist",36,172
+"NT","2018","Jul-Dec","Heavy transport",0,0
+"NT","2018","Jul-Dec","Motorcyclist",92,524
+"NT","2018","Jul-Dec","Other or unknown",7,189
+"NT","2018","Jul-Dec","Pedestrian",37,324
+"NT","2019","Jan-Jun","Bus occupant",0,0
+"NT","2019","Jan-Jun","Car, van or ute",172,699
+"NT","2019","Jan-Jun","Cyclist",43,241
+"NT","2019","Jan-Jun","Heavy transport",0,0
+"NT","2019","Jan-Jun","Motorcyclist",69,422
+"NT","2019","Jan-Jun","Other or unknown",8,27
+"NT","2019","Jan-Jun","Pedestrian",22,297
+"NT","2019","Jul-Dec","Bus occupant",0,0
+"NT","2019","Jul-Dec","Car, van or ute",182,1223
+"NT","2019","Jul-Dec","Cyclist",41,179
+"NT","2019","Jul-Dec","Heavy transport",0,0
+"NT","2019","Jul-Dec","Motorcyclist",84,358
+"NT","2019","Jul-Dec","Other or unknown",9,187
+"NT","2019","Jul-Dec","Pedestrian",16,112
+"NT","2020","Jan-Jun","Car, van or ute",128,790
+"NT","2020","Jan-Jun","Cyclist",58,128
+"NT","2020","Jan-Jun","Heavy transport",0,0
+"NT","2020","Jan-Jun","Motorcyclist",91,294
+"NT","2020","Jan-Jun","Other or unknown",13,22
+"NT","2020","Jan-Jun","Pedestrian",25,230
+"NT","2020","Jul-Dec","Bus occupant",0,0
+"NT","2020","Jul-Dec","Car, van or ute",257,1025
+"NT","2020","Jul-Dec","Cyclist",50,137
+"NT","2020","Jul-Dec","Heavy transport",6,19
+"NT","2020","Jul-Dec","Motorcyclist",104,353
+"NT","2020","Jul-Dec","Other or unknown",10,88
+"NT","2020","Jul-Dec","Pedestrian",31,300
+"NT","2021","Jan-Jun","Bus occupant",5,8
+"NT","2021","Jan-Jun","Car, van or ute",184,1038
+"NT","2021","Jan-Jun","Cyclist",43,120
+"NT","2021","Jan-Jun","Heavy transport",0,0
+"NT","2021","Jan-Jun","Motorcyclist",76,266
+"NT","2021","Jan-Jun","Other or unknown",0,0
+"NT","2021","Jan-Jun","Pedestrian",30,134
+"NT","2021","Jul-Dec","Bus occupant",0,0
+"NT","2021","Jul-Dec","Car, van or ute",187,1497
+"NT","2021","Jul-Dec","Cyclist",49,95
+"NT","2021","Jul-Dec","Heavy transport",0,0
+"NT","2021","Jul-Dec","Motorcyclist",81,374
+"NT","2021","Jul-Dec","Other or unknown",8,124
+"NT","2021","Jul-Dec","Pedestrian",28,249
+"Qld","2011","Jan-Jun","Bus occupant",20,55
+"Qld","2011","Jan-Jun","Car, van or ute",1346,6261
+"Qld","2011","Jan-Jun","Cyclist",463,1301
+"Qld","2011","Jan-Jun","Heavy transport",63,211
+"Qld","2011","Jan-Jun","Motorcyclist",821,4388
+"Qld","2011","Jan-Jun","Other or unknown",72,297
+"Qld","2011","Jan-Jun","Pedestrian",232,1454
+"Qld","2011","Jul-Dec","Bus occupant",9,22
+"Qld","2011","Jul-Dec","Car, van or ute",1463,6944
+"Qld","2011","Jul-Dec","Cyclist",492,1540
+"Qld","2011","Jul-Dec","Heavy transport",99,565
+"Qld","2011","Jul-Dec","Motorcyclist",960,3966
+"Qld","2011","Jul-Dec","Other or unknown",71,300
+"Qld","2011","Jul-Dec","Pedestrian",211,1229
+"Qld","2012","Jan-Jun","Bus occupant",14,35
+"Qld","2012","Jan-Jun","Car, van or ute",1507,6919
+"Qld","2012","Jan-Jun","Cyclist",492,1263
+"Qld","2012","Jan-Jun","Heavy transport",63,295
+"Qld","2012","Jan-Jun","Motorcyclist",816,3887
+"Qld","2012","Jan-Jun","Other or unknown",75,414
+"Qld","2012","Jan-Jun","Pedestrian",199,1503
+"Qld","2012","Jul-Dec","Bus occupant",19,65
+"Qld","2012","Jul-Dec","Car, van or ute",1743,7543
+"Qld","2012","Jul-Dec","Cyclist",562,1790
+"Qld","2012","Jul-Dec","Heavy transport",83,367
+"Qld","2012","Jul-Dec","Motorcyclist",960,4660
+"Qld","2012","Jul-Dec","Other or unknown",63,326
+"Qld","2012","Jul-Dec","Pedestrian",217,1347
+"Qld","2013","Jan-Jun","Bus occupant",21,78
+"Qld","2013","Jan-Jun","Car, van or ute",1786,6199
+"Qld","2013","Jan-Jun","Cyclist",618,1681
+"Qld","2013","Jan-Jun","Heavy transport",67,296
+"Qld","2013","Jan-Jun","Motorcyclist",955,4458
+"Qld","2013","Jan-Jun","Other or unknown",64,250
+"Qld","2013","Jan-Jun","Pedestrian",208,1129
+"Qld","2013","Jul-Dec","Bus occupant",16,65
+"Qld","2013","Jul-Dec","Car, van or ute",1925,6561
+"Qld","2013","Jul-Dec","Cyclist",703,1836
+"Qld","2013","Jul-Dec","Heavy transport",98,423
+"Qld","2013","Jul-Dec","Motorcyclist",1092,4467
+"Qld","2013","Jul-Dec","Other or unknown",76,259
+"Qld","2013","Jul-Dec","Pedestrian",192,1317
+"Qld","2014","Jan-Jun","Bus occupant",26,141
+"Qld","2014","Jan-Jun","Car, van or ute",1705,6239
+"Qld","2014","Jan-Jun","Cyclist",671,1908
+"Qld","2014","Jan-Jun","Heavy transport",61,368
+"Qld","2014","Jan-Jun","Motorcyclist",1030,4080
+"Qld","2014","Jan-Jun","Other or unknown",77,238
+"Qld","2014","Jan-Jun","Pedestrian",173,1043
+"Qld","2014","Jul-Dec","Bus occupant",23,151
+"Qld","2014","Jul-Dec","Car, van or ute",1916,6804
+"Qld","2014","Jul-Dec","Cyclist",662,1589
+"Qld","2014","Jul-Dec","Heavy transport",85,514
+"Qld","2014","Jul-Dec","Motorcyclist",1040,4437
+"Qld","2014","Jul-Dec","Other or unknown",57,170
+"Qld","2014","Jul-Dec","Pedestrian",199,1334
+"Qld","2015","Jan-Jun","Bus occupant",23,54
+"Qld","2015","Jan-Jun","Car, van or ute",1987,6302
+"Qld","2015","Jan-Jun","Cyclist",688,1535
+"Qld","2015","Jan-Jun","Heavy transport",68,324
+"Qld","2015","Jan-Jun","Motorcyclist",1050,3980
+"Qld","2015","Jan-Jun","Other or unknown",48,290
+"Qld","2015","Jan-Jun","Pedestrian",218,1024
+"Qld","2015","Jul-Dec","Bus occupant",17,87
+"Qld","2015","Jul-Dec","Car, van or ute",2076,9747
+"Qld","2015","Jul-Dec","Cyclist",690,2125
+"Qld","2015","Jul-Dec","Heavy transport",73,504
+"Qld","2015","Jul-Dec","Motorcyclist",1094,6175
+"Qld","2015","Jul-Dec","Other or unknown",65,322
+"Qld","2015","Jul-Dec","Pedestrian",209,1801
+"Qld","2016","Jan-Jun","Bus occupant",28,150
+"Qld","2016","Jan-Jun","Car, van or ute",2057,8899
+"Qld","2016","Jan-Jun","Cyclist",729,2121
+"Qld","2016","Jan-Jun","Heavy transport",66,174
+"Qld","2016","Jan-Jun","Motorcyclist",1082,5961
+"Qld","2016","Jan-Jun","Other or unknown",73,399
+"Qld","2016","Jan-Jun","Pedestrian",233,1570
+"Qld","2016","Jul-Dec","Bus occupant",13,252
+"Qld","2016","Jul-Dec","Car, van or ute",2260,9422
+"Qld","2016","Jul-Dec","Cyclist",713,1799
+"Qld","2016","Jul-Dec","Heavy transport",76,678
+"Qld","2016","Jul-Dec","Motorcyclist",1077,6055
+"Qld","2016","Jul-Dec","Other or unknown",73,488
+"Qld","2016","Jul-Dec","Pedestrian",222,1849
+"Qld","2017","Jan-Jun","Bus occupant",14,105
+"Qld","2017","Jan-Jun","Car, van or ute",2169,9471
+"Qld","2017","Jan-Jun","Cyclist",759,2114
+"Qld","2017","Jan-Jun","Heavy transport",97,382
+"Qld","2017","Jan-Jun","Motorcyclist",1095,5403
+"Qld","2017","Jan-Jun","Other or unknown",61,376
+"Qld","2017","Jan-Jun","Pedestrian",225,1891
+"Qld","2017","Jul-Dec","Bus occupant",14,70
+"Qld","2017","Jul-Dec","Car, van or ute",2443,9180
+"Qld","2017","Jul-Dec","Cyclist",783,1947
+"Qld","2017","Jul-Dec","Heavy transport",73,700
+"Qld","2017","Jul-Dec","Motorcyclist",1113,5772
+"Qld","2017","Jul-Dec","Other or unknown",74,510
+"Qld","2017","Jul-Dec","Pedestrian",214,1943
+"Qld","2018","Jan-Jun","Bus occupant",16,34
+"Qld","2018","Jan-Jun","Car, van or ute",2329,9431
+"Qld","2018","Jan-Jun","Cyclist",713,2051
+"Qld","2018","Jan-Jun","Heavy transport",73,452
+"Qld","2018","Jan-Jun","Motorcyclist",1134,5911
+"Qld","2018","Jan-Jun","Other or unknown",67,378
+"Qld","2018","Jan-Jun","Pedestrian",215,1618
+"Qld","2018","Jul-Dec","Bus occupant",21,61
+"Qld","2018","Jul-Dec","Car, van or ute",2563,9753
+"Qld","2018","Jul-Dec","Cyclist",695,1994
+"Qld","2018","Jul-Dec","Heavy transport",90,485
+"Qld","2018","Jul-Dec","Motorcyclist",1186,4869
+"Qld","2018","Jul-Dec","Other or unknown",64,312
+"Qld","2018","Jul-Dec","Pedestrian",215,1490
+"Qld","2019","Jan-Jun","Bus occupant",18,77
+"Qld","2019","Jan-Jun","Car, van or ute",2395,8344
+"Qld","2019","Jan-Jun","Cyclist",753,2311
+"Qld","2019","Jan-Jun","Heavy transport",73,432
+"Qld","2019","Jan-Jun","Motorcyclist",1116,5846
+"Qld","2019","Jan-Jun","Other or unknown",58,210
+"Qld","2019","Jan-Jun","Pedestrian",230,1942
+"Qld","2019","Jul-Dec","Bus occupant",21,69
+"Qld","2019","Jul-Dec","Car, van or ute",2499,9649
+"Qld","2019","Jul-Dec","Cyclist",778,1931
+"Qld","2019","Jul-Dec","Heavy transport",92,409
+"Qld","2019","Jul-Dec","Motorcyclist",1206,6762
+"Qld","2019","Jul-Dec","Other or unknown",62,431
+"Qld","2019","Jul-Dec","Pedestrian",214,1776
+"Qld","2020","Jan-Jun","Bus occupant",12,22
+"Qld","2020","Jan-Jun","Car, van or ute",2039,7718
+"Qld","2020","Jan-Jun","Cyclist",847,2362
+"Qld","2020","Jan-Jun","Heavy transport",86,493
+"Qld","2020","Jan-Jun","Motorcyclist",1061,5015
+"Qld","2020","Jan-Jun","Other or unknown",70,532
+"Qld","2020","Jan-Jun","Pedestrian",172,1326
+"Qld","2020","Jul-Dec","Bus occupant",10,13
+"Qld","2020","Jul-Dec","Car, van or ute",2882,9216
+"Qld","2020","Jul-Dec","Cyclist",837,2348
+"Qld","2020","Jul-Dec","Heavy transport",85,536
+"Qld","2020","Jul-Dec","Motorcyclist",1386,6291
+"Qld","2020","Jul-Dec","Other or unknown",72,272
+"Qld","2020","Jul-Dec","Pedestrian",242,1706
+"Qld","2021","Jan-Jun","Bus occupant",15,68
+"Qld","2021","Jan-Jun","Car, van or ute",2728,10017
+"Qld","2021","Jan-Jun","Cyclist",722,2562
+"Qld","2021","Jan-Jun","Heavy transport",73,326
+"Qld","2021","Jan-Jun","Motorcyclist",1288,5581
+"Qld","2021","Jan-Jun","Other or unknown",82,387
+"Qld","2021","Jan-Jun","Pedestrian",219,1869
+"Qld","2021","Jul-Dec","Bus occupant",23,37
+"Qld","2021","Jul-Dec","Car, van or ute",2835,9229
+"Qld","2021","Jul-Dec","Cyclist",782,2214
+"Qld","2021","Jul-Dec","Heavy transport",71,308
+"Qld","2021","Jul-Dec","Motorcyclist",1310,6495
+"Qld","2021","Jul-Dec","Other or unknown",70,474
+"Qld","2021","Jul-Dec","Pedestrian",229,1322
+"SA","2011","Jan-Jun","Bus occupant",14,72
+"SA","2011","Jan-Jun","Car, van or ute",601,3399
+"SA","2011","Jan-Jun","Cyclist",184,612
+"SA","2011","Jan-Jun","Heavy transport",9,46
+"SA","2011","Jan-Jun","Motorcyclist",243,1531
+"SA","2011","Jan-Jun","Other or unknown",0,0
+"SA","2011","Jan-Jun","Pedestrian",79,747
+"SA","2011","Jul-Dec","Bus occupant",0,0
+"SA","2011","Jul-Dec","Car, van or ute",665,2611
+"SA","2011","Jul-Dec","Cyclist",195,707
+"SA","2011","Jul-Dec","Heavy transport",19,39
+"SA","2011","Jul-Dec","Motorcyclist",217,1267
+"SA","2011","Jul-Dec","Other or unknown",0,0
+"SA","2011","Jul-Dec","Pedestrian",97,885
+"SA","2012","Jan-Jun","Bus occupant",0,0
+"SA","2012","Jan-Jun","Car, van or ute",541,3222
+"SA","2012","Jan-Jun","Cyclist",199,565
+"SA","2012","Jan-Jun","Heavy transport",15,52
+"SA","2012","Jan-Jun","Motorcyclist",213,1194
+"SA","2012","Jan-Jun","Other or unknown",22,94
+"SA","2012","Jan-Jun","Pedestrian",97,886
+"SA","2012","Jul-Dec","Bus occupant",8,27
+"SA","2012","Jul-Dec","Car, van or ute",602,3367
+"SA","2012","Jul-Dec","Cyclist",202,906
+"SA","2012","Jul-Dec","Heavy transport",16,38
+"SA","2012","Jul-Dec","Motorcyclist",238,1285
+"SA","2012","Jul-Dec","Other or unknown",39,84
+"SA","2012","Jul-Dec","Pedestrian",99,629
+"SA","2013","Jan-Jun","Bus occupant",11,27
+"SA","2013","Jan-Jun","Car, van or ute",532,2955
+"SA","2013","Jan-Jun","Cyclist",199,621
+"SA","2013","Jan-Jun","Heavy transport",14,135
+"SA","2013","Jan-Jun","Motorcyclist",209,1226
+"SA","2013","Jan-Jun","Other or unknown",11,16
+"SA","2013","Jan-Jun","Pedestrian",87,731
+"SA","2013","Jul-Dec","Bus occupant",5,31
+"SA","2013","Jul-Dec","Car, van or ute",594,2652
+"SA","2013","Jul-Dec","Cyclist",201,791
+"SA","2013","Jul-Dec","Heavy transport",11,67
+"SA","2013","Jul-Dec","Motorcyclist",246,1492
+"SA","2013","Jul-Dec","Other or unknown",16,61
+"SA","2013","Jul-Dec","Pedestrian",85,766
+"SA","2014","Jan-Jun","Bus occupant",0,0
+"SA","2014","Jan-Jun","Car, van or ute",538,2456
+"SA","2014","Jan-Jun","Cyclist",277,807
+"SA","2014","Jan-Jun","Heavy transport",21,71
+"SA","2014","Jan-Jun","Motorcyclist",289,1279
+"SA","2014","Jan-Jun","Other or unknown",0,0
+"SA","2014","Jan-Jun","Pedestrian",83,649
+"SA","2014","Jul-Dec","Bus occupant",8,28
+"SA","2014","Jul-Dec","Car, van or ute",554,2832
+"SA","2014","Jul-Dec","Cyclist",217,701
+"SA","2014","Jul-Dec","Heavy transport",14,41
+"SA","2014","Jul-Dec","Motorcyclist",268,1091
+"SA","2014","Jul-Dec","Other or unknown",16,51
+"SA","2014","Jul-Dec","Pedestrian",79,1072
+"SA","2015","Jan-Jun","Bus occupant",6,15
+"SA","2015","Jan-Jun","Car, van or ute",563,2722
+"SA","2015","Jan-Jun","Cyclist",246,584
+"SA","2015","Jan-Jun","Heavy transport",17,40
+"SA","2015","Jan-Jun","Motorcyclist",281,1510
+"SA","2015","Jan-Jun","Other or unknown",12,75
+"SA","2015","Jan-Jun","Pedestrian",55,286
+"SA","2015","Jul-Dec","Bus occupant",0,0
+"SA","2015","Jul-Dec","Car, van or ute",642,2945
+"SA","2015","Jul-Dec","Cyclist",271,758
+"SA","2015","Jul-Dec","Heavy transport",0,0
+"SA","2015","Jul-Dec","Motorcyclist",268,1499
+"SA","2015","Jul-Dec","Other or unknown",20,41
+"SA","2015","Jul-Dec","Pedestrian",66,636
+"SA","2016","Jan-Jun","Bus occupant",7,60
+"SA","2016","Jan-Jun","Car, van or ute",641,3605
+"SA","2016","Jan-Jun","Cyclist",313,863
+"SA","2016","Jan-Jun","Heavy transport",19,140
+"SA","2016","Jan-Jun","Motorcyclist",279,1602
+"SA","2016","Jan-Jun","Other or unknown",23,100
+"SA","2016","Jan-Jun","Pedestrian",88,793
+"SA","2016","Jul-Dec","Bus occupant",7,11
+"SA","2016","Jul-Dec","Car, van or ute",673,3121
+"SA","2016","Jul-Dec","Cyclist",214,554
+"SA","2016","Jul-Dec","Heavy transport",20,114
+"SA","2016","Jul-Dec","Motorcyclist",267,1300
+"SA","2016","Jul-Dec","Other or unknown",23,68
+"SA","2016","Jul-Dec","Pedestrian",80,864
+"SA","2017","Jan-Jun","Bus occupant",10,30
+"SA","2017","Jan-Jun","Car, van or ute",628,3416
+"SA","2017","Jan-Jun","Cyclist",272,765
+"SA","2017","Jan-Jun","Heavy transport",14,35
+"SA","2017","Jan-Jun","Motorcyclist",295,1604
+"SA","2017","Jan-Jun","Other or unknown",30,293
+"SA","2017","Jan-Jun","Pedestrian",64,783
+"SA","2017","Jul-Dec","Bus occupant",5,14
+"SA","2017","Jul-Dec","Car, van or ute",538,3592
+"SA","2017","Jul-Dec","Cyclist",197,540
+"SA","2017","Jul-Dec","Heavy transport",17,67
+"SA","2017","Jul-Dec","Motorcyclist",236,1640
+"SA","2017","Jul-Dec","Other or unknown",25,232
+"SA","2017","Jul-Dec","Pedestrian",63,768
+"SA","2018","Jan-Jun","Bus occupant",0,0
+"SA","2018","Jan-Jun","Car, van or ute",575,2910
+"SA","2018","Jan-Jun","Cyclist",266,952
+"SA","2018","Jan-Jun","Heavy transport",14,75
+"SA","2018","Jan-Jun","Motorcyclist",256,1769
+"SA","2018","Jan-Jun","Other or unknown",24,96
+"SA","2018","Jan-Jun","Pedestrian",73,638
+"SA","2018","Jul-Dec","Bus occupant",9,86
+"SA","2018","Jul-Dec","Car, van or ute",623,3054
+"SA","2018","Jul-Dec","Cyclist",230,764
+"SA","2018","Jul-Dec","Heavy transport",6,120
+"SA","2018","Jul-Dec","Motorcyclist",303,1391
+"SA","2018","Jul-Dec","Other or unknown",27,106
+"SA","2018","Jul-Dec","Pedestrian",75,650
+"SA","2019","Jan-Jun","Bus occupant",7,16
+"SA","2019","Jan-Jun","Car, van or ute",486,2431
+"SA","2019","Jan-Jun","Cyclist",289,647
+"SA","2019","Jan-Jun","Heavy transport",27,54
+"SA","2019","Jan-Jun","Motorcyclist",300,1166
+"SA","2019","Jan-Jun","Other or unknown",23,155
+"SA","2019","Jan-Jun","Pedestrian",89,753
+"SA","2019","Jul-Dec","Bus occupant",7,20
+"SA","2019","Jul-Dec","Car, van or ute",598,2774
+"SA","2019","Jul-Dec","Cyclist",237,916
+"SA","2019","Jul-Dec","Heavy transport",17,28
+"SA","2019","Jul-Dec","Motorcyclist",262,1140
+"SA","2019","Jul-Dec","Other or unknown",0,0
+"SA","2019","Jul-Dec","Pedestrian",78,589
+"SA","2020","Jan-Jun","Bus occupant",16,48
+"SA","2020","Jan-Jun","Car, van or ute",501,2921
+"SA","2020","Jan-Jun","Cyclist",304,1139
+"SA","2020","Jan-Jun","Heavy transport",14,19
+"SA","2020","Jan-Jun","Motorcyclist",250,1418
+"SA","2020","Jan-Jun","Other or unknown",20,37
+"SA","2020","Jan-Jun","Pedestrian",66,514
+"SA","2020","Jul-Dec","Bus occupant",7,8
+"SA","2020","Jul-Dec","Car, van or ute",611,3116
+"SA","2020","Jul-Dec","Cyclist",289,624
+"SA","2020","Jul-Dec","Heavy transport",15,120
+"SA","2020","Jul-Dec","Motorcyclist",333,1546
+"SA","2020","Jul-Dec","Other or unknown",12,54
+"SA","2020","Jul-Dec","Pedestrian",65,616
+"SA","2021","Jan-Jun","Bus occupant",8,19
+"SA","2021","Jan-Jun","Car, van or ute",616,2550
+"SA","2021","Jan-Jun","Cyclist",324,1012
+"SA","2021","Jan-Jun","Heavy transport",11,49
+"SA","2021","Jan-Jun","Motorcyclist",280,1437
+"SA","2021","Jan-Jun","Other or unknown",15,120
+"SA","2021","Jan-Jun","Pedestrian",83,871
+"SA","2021","Jul-Dec","Bus occupant",6,23
+"SA","2021","Jul-Dec","Car, van or ute",631,3053
+"SA","2021","Jul-Dec","Cyclist",253,801
+"SA","2021","Jul-Dec","Heavy transport",15,36
+"SA","2021","Jul-Dec","Motorcyclist",276,1157
+"SA","2021","Jul-Dec","Other or unknown",25,85
+"SA","2021","Jul-Dec","Pedestrian",89,639
+"Tas","2011","Jan-Jun","Car, van or ute",103,491
+"Tas","2011","Jan-Jun","Cyclist",41,101
+"Tas","2011","Jan-Jun","Heavy transport",0,0
+"Tas","2011","Jan-Jun","Motorcyclist",66,530
+"Tas","2011","Jan-Jun","Other or unknown",0,0
+"Tas","2011","Jan-Jun","Pedestrian",27,217
+"Tas","2011","Jul-Dec","Bus occupant",0,0
+"Tas","2011","Jul-Dec","Car, van or ute",122,1084
+"Tas","2011","Jul-Dec","Cyclist",32,73
+"Tas","2011","Jul-Dec","Heavy transport",0,0
+"Tas","2011","Jul-Dec","Motorcyclist",63,325
+"Tas","2011","Jul-Dec","Other or unknown",0,0
+"Tas","2011","Jul-Dec","Pedestrian",18,130
+"Tas","2012","Jan-Jun","Car, van or ute",128,869
+"Tas","2012","Jan-Jun","Cyclist",42,96
+"Tas","2012","Jan-Jun","Heavy transport",0,0
+"Tas","2012","Jan-Jun","Motorcyclist",64,426
+"Tas","2012","Jan-Jun","Other or unknown",0,0
+"Tas","2012","Jan-Jun","Pedestrian",32,281
+"Tas","2012","Jul-Dec","Bus occupant",0,0
+"Tas","2012","Jul-Dec","Car, van or ute",117,651
+"Tas","2012","Jul-Dec","Cyclist",49,104
+"Tas","2012","Jul-Dec","Heavy transport",0,0
+"Tas","2012","Jul-Dec","Motorcyclist",60,192
+"Tas","2012","Jul-Dec","Other or unknown",7,10
+"Tas","2012","Jul-Dec","Pedestrian",19,153
+"Tas","2013","Jan-Jun","Car, van or ute",135,726
+"Tas","2013","Jan-Jun","Cyclist",48,135
+"Tas","2013","Jan-Jun","Motorcyclist",69,344
+"Tas","2013","Jan-Jun","Other or unknown",0,0
+"Tas","2013","Jan-Jun","Pedestrian",23,144
+"Tas","2013","Jul-Dec","Bus occupant",0,0
+"Tas","2013","Jul-Dec","Car, van or ute",130,622
+"Tas","2013","Jul-Dec","Cyclist",46,163
+"Tas","2013","Jul-Dec","Heavy transport",0,0
+"Tas","2013","Jul-Dec","Motorcyclist",80,284
+"Tas","2013","Jul-Dec","Other or unknown",9,81
+"Tas","2013","Jul-Dec","Pedestrian",20,339
+"Tas","2014","Jan-Jun","Bus occupant",0,0
+"Tas","2014","Jan-Jun","Car, van or ute",133,681
+"Tas","2014","Jan-Jun","Cyclist",58,261
+"Tas","2014","Jan-Jun","Heavy transport",0,0
+"Tas","2014","Jan-Jun","Motorcyclist",98,341
+"Tas","2014","Jan-Jun","Other or unknown",9,20
+"Tas","2014","Jan-Jun","Pedestrian",29,212
+"Tas","2014","Jul-Dec","Bus occupant",0,0
+"Tas","2014","Jul-Dec","Car, van or ute",128,700
+"Tas","2014","Jul-Dec","Cyclist",53,96
+"Tas","2014","Jul-Dec","Heavy transport",0,0
+"Tas","2014","Jul-Dec","Motorcyclist",106,446
+"Tas","2014","Jul-Dec","Other or unknown",0,0
+"Tas","2014","Jul-Dec","Pedestrian",16,72
+"Tas","2015","Jan-Jun","Car, van or ute",161,834
+"Tas","2015","Jan-Jun","Cyclist",56,130
+"Tas","2015","Jan-Jun","Heavy transport",0,0
+"Tas","2015","Jan-Jun","Motorcyclist",97,494
+"Tas","2015","Jan-Jun","Other or unknown",9,65
+"Tas","2015","Jan-Jun","Pedestrian",16,150
+"Tas","2015","Jul-Dec","Bus occupant",0,0
+"Tas","2015","Jul-Dec","Car, van or ute",164,840
+"Tas","2015","Jul-Dec","Cyclist",37,214
+"Tas","2015","Jul-Dec","Heavy transport",8,33
+"Tas","2015","Jul-Dec","Motorcyclist",100,315
+"Tas","2015","Jul-Dec","Other or unknown",0,0
+"Tas","2015","Jul-Dec","Pedestrian",19,300
+"Tas","2016","Jan-Jun","Bus occupant",0,0
+"Tas","2016","Jan-Jun","Car, van or ute",160,1043
+"Tas","2016","Jan-Jun","Cyclist",57,118
+"Tas","2016","Jan-Jun","Heavy transport",0,0
+"Tas","2016","Jan-Jun","Motorcyclist",89,565
+"Tas","2016","Jan-Jun","Other or unknown",6,121
+"Tas","2016","Jan-Jun","Pedestrian",13,40
+"Tas","2016","Jul-Dec","Bus occupant",0,0
+"Tas","2016","Jul-Dec","Car, van or ute",155,1087
+"Tas","2016","Jul-Dec","Cyclist",39,58
+"Tas","2016","Jul-Dec","Heavy transport",8,70
+"Tas","2016","Jul-Dec","Motorcyclist",82,531
+"Tas","2016","Jul-Dec","Other or unknown",9,103
+"Tas","2016","Jul-Dec","Pedestrian",28,173
+"Tas","2017","Jan-Jun","Bus occupant",0,0
+"Tas","2017","Jan-Jun","Car, van or ute",153,1000
+"Tas","2017","Jan-Jun","Cyclist",54,178
+"Tas","2017","Jan-Jun","Heavy transport",0,0
+"Tas","2017","Jan-Jun","Motorcyclist",98,555
+"Tas","2017","Jan-Jun","Other or unknown",8,65
+"Tas","2017","Jan-Jun","Pedestrian",13,69
+"Tas","2017","Jul-Dec","Bus occupant",0,0
+"Tas","2017","Jul-Dec","Car, van or ute",157,854
+"Tas","2017","Jul-Dec","Cyclist",53,448
+"Tas","2017","Jul-Dec","Heavy transport",5,53
+"Tas","2017","Jul-Dec","Motorcyclist",71,489
+"Tas","2017","Jul-Dec","Other or unknown",0,0
+"Tas","2017","Jul-Dec","Pedestrian",21,244
+"Tas","2018","Jan-Jun","Bus occupant",0,0
+"Tas","2018","Jan-Jun","Car, van or ute",201,990
+"Tas","2018","Jan-Jun","Cyclist",57,234
+"Tas","2018","Jan-Jun","Heavy transport",0,0
+"Tas","2018","Jan-Jun","Motorcyclist",83,443
+"Tas","2018","Jan-Jun","Other or unknown",6,14
+"Tas","2018","Jan-Jun","Pedestrian",20,125
+"Tas","2018","Jul-Dec","Bus occupant",0,0
+"Tas","2018","Jul-Dec","Car, van or ute",208,1330
+"Tas","2018","Jul-Dec","Cyclist",52,106
+"Tas","2018","Jul-Dec","Heavy transport",8,82
+"Tas","2018","Jul-Dec","Motorcyclist",88,493
+"Tas","2018","Jul-Dec","Other or unknown",9,101
+"Tas","2018","Jul-Dec","Pedestrian",39,640
+"Tas","2019","Jan-Jun","Bus occupant",0,0
+"Tas","2019","Jan-Jun","Car, van or ute",194,1137
+"Tas","2019","Jan-Jun","Cyclist",67,148
+"Tas","2019","Jan-Jun","Heavy transport",9,149
+"Tas","2019","Jan-Jun","Motorcyclist",75,678
+"Tas","2019","Jan-Jun","Other or unknown",0,0
+"Tas","2019","Jan-Jun","Pedestrian",33,264
+"Tas","2019","Jul-Dec","Bus occupant",0,0
+"Tas","2019","Jul-Dec","Car, van or ute",150,619
+"Tas","2019","Jul-Dec","Cyclist",54,104
+"Tas","2019","Jul-Dec","Heavy transport",0,0
+"Tas","2019","Jul-Dec","Motorcyclist",73,348
+"Tas","2019","Jul-Dec","Other or unknown",11,105
+"Tas","2019","Jul-Dec","Pedestrian",20,244
+"Tas","2020","Jan-Jun","Bus occupant",0,0
+"Tas","2020","Jan-Jun","Car, van or ute",159,694
+"Tas","2020","Jan-Jun","Cyclist",57,118
+"Tas","2020","Jan-Jun","Heavy transport",0,0
+"Tas","2020","Jan-Jun","Motorcyclist",85,351
+"Tas","2020","Jan-Jun","Other or unknown",6,30
+"Tas","2020","Jan-Jun","Pedestrian",13,120
+"Tas","2020","Jul-Dec","Bus occupant",0,0
+"Tas","2020","Jul-Dec","Car, van or ute",226,1260
+"Tas","2020","Jul-Dec","Cyclist",76,217
+"Tas","2020","Jul-Dec","Heavy transport",0,0
+"Tas","2020","Jul-Dec","Motorcyclist",107,366
+"Tas","2020","Jul-Dec","Other or unknown",6,15
+"Tas","2020","Jul-Dec","Pedestrian",23,166
+"Tas","2021","Jan-Jun","Car, van or ute",206,1662
+"Tas","2021","Jan-Jun","Cyclist",69,337
+"Tas","2021","Jan-Jun","Heavy transport",0,0
+"Tas","2021","Jan-Jun","Motorcyclist",108,676
+"Tas","2021","Jan-Jun","Other or unknown",8,41
+"Tas","2021","Jan-Jun","Pedestrian",21,95
+"Tas","2021","Jul-Dec","Bus occupant",0,0
+"Tas","2021","Jul-Dec","Car, van or ute",206,1104
+"Tas","2021","Jul-Dec","Cyclist",49,350
+"Tas","2021","Jul-Dec","Heavy transport",0,0
+"Tas","2021","Jul-Dec","Motorcyclist",90,440
+"Tas","2021","Jul-Dec","Other or unknown",0,0
+"Tas","2021","Jul-Dec","Pedestrian",25,107
+"Vic","2011","Jan-Jun","Bus occupant",22,35
+"Vic","2011","Jan-Jun","Car, van or ute",2403,8139
+"Vic","2011","Jan-Jun","Cyclist",852,2204
+"Vic","2011","Jan-Jun","Heavy transport",69,244
+"Vic","2011","Jan-Jun","Motorcyclist",830,3362
+"Vic","2011","Jan-Jun","Other or unknown",53,220
+"Vic","2011","Jan-Jun","Pedestrian",356,2495
+"Vic","2011","Jul-Dec","Bus occupant",17,27
+"Vic","2011","Jul-Dec","Car, van or ute",2529,9217
+"Vic","2011","Jul-Dec","Cyclist",835,1970
+"Vic","2011","Jul-Dec","Heavy transport",87,388
+"Vic","2011","Jul-Dec","Motorcyclist",792,3163
+"Vic","2011","Jul-Dec","Other or unknown",98,278
+"Vic","2011","Jul-Dec","Pedestrian",383,2182
+"Vic","2012","Jan-Jun","Bus occupant",20,101
+"Vic","2012","Jan-Jun","Car, van or ute",2407,7943
+"Vic","2012","Jan-Jun","Cyclist",865,1984
+"Vic","2012","Jan-Jun","Heavy transport",68,361
+"Vic","2012","Jan-Jun","Motorcyclist",884,3330
+"Vic","2012","Jan-Jun","Other or unknown",57,219
+"Vic","2012","Jan-Jun","Pedestrian",368,2069
+"Vic","2012","Jul-Dec","Bus occupant",13,47
+"Vic","2012","Jul-Dec","Car, van or ute",1729,7364
+"Vic","2012","Jul-Dec","Cyclist",665,1881
+"Vic","2012","Jul-Dec","Heavy transport",48,168
+"Vic","2012","Jul-Dec","Motorcyclist",621,2779
+"Vic","2012","Jul-Dec","Other or unknown",46,223
+"Vic","2012","Jul-Dec","Pedestrian",307,1776
+"Vic","2013","Jan-Jun","Bus occupant",25,113
+"Vic","2013","Jan-Jun","Car, van or ute",1815,7312
+"Vic","2013","Jan-Jun","Cyclist",825,2071
+"Vic","2013","Jan-Jun","Heavy transport",57,332
+"Vic","2013","Jan-Jun","Motorcyclist",765,2998
+"Vic","2013","Jan-Jun","Other or unknown",63,221
+"Vic","2013","Jan-Jun","Pedestrian",348,2269
+"Vic","2013","Jul-Dec","Bus occupant",20,62
+"Vic","2013","Jul-Dec","Car, van or ute",1926,6528
+"Vic","2013","Jul-Dec","Cyclist",758,1873
+"Vic","2013","Jul-Dec","Heavy transport",46,226
+"Vic","2013","Jul-Dec","Motorcyclist",756,3000
+"Vic","2013","Jul-Dec","Other or unknown",55,259
+"Vic","2013","Jul-Dec","Pedestrian",325,1802
+"Vic","2014","Jan-Jun","Bus occupant",26,185
+"Vic","2014","Jan-Jun","Car, van or ute",2023,7013
+"Vic","2014","Jan-Jun","Cyclist",899,2116
+"Vic","2014","Jan-Jun","Heavy transport",58,337
+"Vic","2014","Jan-Jun","Motorcyclist",858,3288
+"Vic","2014","Jan-Jun","Other or unknown",61,248
+"Vic","2014","Jan-Jun","Pedestrian",312,2091
+"Vic","2014","Jul-Dec","Bus occupant",31,99
+"Vic","2014","Jul-Dec","Car, van or ute",2105,6485
+"Vic","2014","Jul-Dec","Cyclist",920,2120
+"Vic","2014","Jul-Dec","Heavy transport",49,272
+"Vic","2014","Jul-Dec","Motorcyclist",796,2969
+"Vic","2014","Jul-Dec","Other or unknown",54,152
+"Vic","2014","Jul-Dec","Pedestrian",331,1650
+"Vic","2015","Jan-Jun","Bus occupant",20,120
+"Vic","2015","Jan-Jun","Car, van or ute",2224,7397
+"Vic","2015","Jan-Jun","Cyclist",996,2320
+"Vic","2015","Jan-Jun","Heavy transport",55,242
+"Vic","2015","Jan-Jun","Motorcyclist",859,3176
+"Vic","2015","Jan-Jun","Other or unknown",52,197
+"Vic","2015","Jan-Jun","Pedestrian",326,1463
+"Vic","2015","Jul-Dec","Bus occupant",40,353
+"Vic","2015","Jul-Dec","Car, van or ute",2397,17979
+"Vic","2015","Jul-Dec","Cyclist",898,3197
+"Vic","2015","Jul-Dec","Heavy transport",52,262
+"Vic","2015","Jul-Dec","Motorcyclist",835,6770
+"Vic","2015","Jul-Dec","Other or unknown",70,410
+"Vic","2015","Jul-Dec","Pedestrian",374,6186
+"Vic","2016","Jan-Jun","Bus occupant",32,454
+"Vic","2016","Jan-Jun","Car, van or ute",2609,15905
+"Vic","2016","Jan-Jun","Cyclist",1100,4012
+"Vic","2016","Jan-Jun","Heavy transport",45,390
+"Vic","2016","Jan-Jun","Motorcyclist",967,6527
+"Vic","2016","Jan-Jun","Other or unknown",77,612
+"Vic","2016","Jan-Jun","Pedestrian",370,5050
+"Vic","2016","Jul-Dec","Bus occupant",31,171
+"Vic","2016","Jul-Dec","Car, van or ute",2791,18633
+"Vic","2016","Jul-Dec","Cyclist",908,2596
+"Vic","2016","Jul-Dec","Heavy transport",65,723
+"Vic","2016","Jul-Dec","Motorcyclist",839,5989
+"Vic","2016","Jul-Dec","Other or unknown",96,647
+"Vic","2016","Jul-Dec","Pedestrian",430,6069
+"Vic","2017","Jan-Jun","Bus occupant",30,199
+"Vic","2017","Jan-Jun","Car, van or ute",2765,15487
+"Vic","2017","Jan-Jun","Cyclist",1099,2941
+"Vic","2017","Jan-Jun","Heavy transport",57,314
+"Vic","2017","Jan-Jun","Motorcyclist",1027,7293
+"Vic","2017","Jan-Jun","Other or unknown",83,405
+"Vic","2017","Jan-Jun","Pedestrian",387,6280
+"Vic","2017","Jul-Dec","Bus occupant",43,230
+"Vic","2017","Jul-Dec","Car, van or ute",2830,14125
+"Vic","2017","Jul-Dec","Cyclist",990,3114
+"Vic","2017","Jul-Dec","Heavy transport",69,450
+"Vic","2017","Jul-Dec","Motorcyclist",952,6113
+"Vic","2017","Jul-Dec","Other or unknown",63,546
+"Vic","2017","Jul-Dec","Pedestrian",399,6557
+"Vic","2018","Jan-Jun","Bus occupant",38,360
+"Vic","2018","Jan-Jun","Car, van or ute",3046,15314
+"Vic","2018","Jan-Jun","Cyclist",1197,3510
+"Vic","2018","Jan-Jun","Heavy transport",86,320
+"Vic","2018","Jan-Jun","Motorcyclist",1007,8174
+"Vic","2018","Jan-Jun","Other or unknown",82,594
+"Vic","2018","Jan-Jun","Pedestrian",445,4059
+"Vic","2018","Jul-Dec","Bus occupant",35,182
+"Vic","2018","Jul-Dec","Car, van or ute",3123,16558
+"Vic","2018","Jul-Dec","Cyclist",947,2669
+"Vic","2018","Jul-Dec","Heavy transport",57,313
+"Vic","2018","Jul-Dec","Motorcyclist",937,6187
+"Vic","2018","Jul-Dec","Other or unknown",68,855
+"Vic","2018","Jul-Dec","Pedestrian",385,4749
+"Vic","2019","Jan-Jun","Bus occupant",33,63
+"Vic","2019","Jan-Jun","Car, van or ute",3081,14789
+"Vic","2019","Jan-Jun","Cyclist",1205,3751
+"Vic","2019","Jan-Jun","Heavy transport",59,523
+"Vic","2019","Jan-Jun","Motorcyclist",1049,7269
+"Vic","2019","Jan-Jun","Other or unknown",84,425
+"Vic","2019","Jan-Jun","Pedestrian",392,3849
+"Vic","2019","Jul-Dec","Bus occupant",34,128
+"Vic","2019","Jul-Dec","Car, van or ute",2984,14569
+"Vic","2019","Jul-Dec","Cyclist",1010,3590
+"Vic","2019","Jul-Dec","Heavy transport",63,377
+"Vic","2019","Jul-Dec","Motorcyclist",890,6136
+"Vic","2019","Jul-Dec","Other or unknown",85,573
+"Vic","2019","Jul-Dec","Pedestrian",423,4967
+"Vic","2020","Jan-Jun","Bus occupant",16,42
+"Vic","2020","Jan-Jun","Car, van or ute",2509,13361
+"Vic","2020","Jan-Jun","Cyclist",1226,3352
+"Vic","2020","Jan-Jun","Heavy transport",46,373
+"Vic","2020","Jan-Jun","Motorcyclist",852,5291
+"Vic","2020","Jan-Jun","Other or unknown",78,430
+"Vic","2020","Jan-Jun","Pedestrian",303,4165
+"Vic","2020","Jul-Dec","Bus occupant",18,149
+"Vic","2020","Jul-Dec","Car, van or ute",2209,10020
+"Vic","2020","Jul-Dec","Cyclist",1419,3317
+"Vic","2020","Jul-Dec","Heavy transport",57,451
+"Vic","2020","Jul-Dec","Motorcyclist",830,4567
+"Vic","2020","Jul-Dec","Other or unknown",66,370
+"Vic","2020","Jul-Dec","Pedestrian",255,2049
+"Vic","2021","Jan-Jun","Bus occupant",21,90
+"Vic","2021","Jan-Jun","Car, van or ute",2946,13563
+"Vic","2021","Jan-Jun","Cyclist",1373,4386
+"Vic","2021","Jan-Jun","Heavy transport",63,621
+"Vic","2021","Jan-Jun","Motorcyclist",1084,6655
+"Vic","2021","Jan-Jun","Other or unknown",81,596
+"Vic","2021","Jan-Jun","Pedestrian",353,3640
+"Vic","2021","Jul-Dec","Bus occupant",16,197
+"Vic","2021","Jul-Dec","Car, van or ute",2532,11775
+"Vic","2021","Jul-Dec","Cyclist",1322,3495
+"Vic","2021","Jul-Dec","Heavy transport",73,585
+"Vic","2021","Jul-Dec","Motorcyclist",883,5072
+"Vic","2021","Jul-Dec","Other or unknown",54,342
+"Vic","2021","Jul-Dec","Pedestrian",329,3682
+"WA","2011","Jan-Jun","Bus occupant",10,33
+"WA","2011","Jan-Jun","Car, van or ute",800,4078
+"WA","2011","Jan-Jun","Cyclist",283,906
+"WA","2011","Jan-Jun","Heavy transport",22,175
+"WA","2011","Jan-Jun","Motorcyclist",427,3066
+"WA","2011","Jan-Jun","Other or unknown",34,98
+"WA","2011","Jan-Jun","Pedestrian",148,1028
+"WA","2011","Jul-Dec","Bus occupant",16,39
+"WA","2011","Jul-Dec","Car, van or ute",843,4655
+"WA","2011","Jul-Dec","Cyclist",247,779
+"WA","2011","Jul-Dec","Heavy transport",23,80
+"WA","2011","Jul-Dec","Motorcyclist",440,2479
+"WA","2011","Jul-Dec","Other or unknown",36,187
+"WA","2011","Jul-Dec","Pedestrian",113,882
+"WA","2012","Jan-Jun","Bus occupant",10,39
+"WA","2012","Jan-Jun","Car, van or ute",755,4246
+"WA","2012","Jan-Jun","Cyclist",310,811
+"WA","2012","Jan-Jun","Heavy transport",26,166
+"WA","2012","Jan-Jun","Motorcyclist",432,2654
+"WA","2012","Jan-Jun","Other or unknown",34,159
+"WA","2012","Jan-Jun","Pedestrian",125,745
+"WA","2012","Jul-Dec","Bus occupant",14,61
+"WA","2012","Jul-Dec","Car, van or ute",838,4288
+"WA","2012","Jul-Dec","Cyclist",277,758
+"WA","2012","Jul-Dec","Heavy transport",24,168
+"WA","2012","Jul-Dec","Motorcyclist",477,2734
+"WA","2012","Jul-Dec","Other or unknown",54,166
+"WA","2012","Jul-Dec","Pedestrian",117,904
+"WA","2013","Jan-Jun","Bus occupant",10,30
+"WA","2013","Jan-Jun","Car, van or ute",743,3047
+"WA","2013","Jan-Jun","Cyclist",387,1318
+"WA","2013","Jan-Jun","Heavy transport",19,221
+"WA","2013","Jan-Jun","Motorcyclist",492,2934
+"WA","2013","Jan-Jun","Other or unknown",33,136
+"WA","2013","Jan-Jun","Pedestrian",118,791
+"WA","2013","Jul-Dec","Bus occupant",20,83
+"WA","2013","Jul-Dec","Car, van or ute",728,4276
+"WA","2013","Jul-Dec","Cyclist",288,885
+"WA","2013","Jul-Dec","Heavy transport",21,121
+"WA","2013","Jul-Dec","Motorcyclist",466,2364
+"WA","2013","Jul-Dec","Other or unknown",23,115
+"WA","2013","Jul-Dec","Pedestrian",127,905
+"WA","2014","Jan-Jun","Bus occupant",18,62
+"WA","2014","Jan-Jun","Car, van or ute",652,3181
+"WA","2014","Jan-Jun","Cyclist",363,1176
+"WA","2014","Jan-Jun","Heavy transport",9,46
+"WA","2014","Jan-Jun","Motorcyclist",437,2534
+"WA","2014","Jan-Jun","Other or unknown",23,124
+"WA","2014","Jan-Jun","Pedestrian",107,922
+"WA","2014","Jul-Dec","Bus occupant",11,34
+"WA","2014","Jul-Dec","Car, van or ute",649,3922
+"WA","2014","Jul-Dec","Cyclist",294,850
+"WA","2014","Jul-Dec","Heavy transport",26,163
+"WA","2014","Jul-Dec","Motorcyclist",428,2792
+"WA","2014","Jul-Dec","Other or unknown",46,123
+"WA","2014","Jul-Dec","Pedestrian",91,660
+"WA","2015","Jan-Jun","Bus occupant",0,0
+"WA","2015","Jan-Jun","Car, van or ute",666,4127
+"WA","2015","Jan-Jun","Cyclist",322,991
+"WA","2015","Jan-Jun","Heavy transport",13,50
+"WA","2015","Jan-Jun","Motorcyclist",441,2460
+"WA","2015","Jan-Jun","Other or unknown",22,74
+"WA","2015","Jan-Jun","Pedestrian",103,666
+"WA","2015","Jul-Dec","Bus occupant",13,100
+"WA","2015","Jul-Dec","Car, van or ute",714,4844
+"WA","2015","Jul-Dec","Cyclist",299,972
+"WA","2015","Jul-Dec","Heavy transport",20,211
+"WA","2015","Jul-Dec","Motorcyclist",401,2675
+"WA","2015","Jul-Dec","Other or unknown",48,151
+"WA","2015","Jul-Dec","Pedestrian",101,1048
+"WA","2016","Jan-Jun","Bus occupant",8,29
+"WA","2016","Jan-Jun","Car, van or ute",607,4767
+"WA","2016","Jan-Jun","Cyclist",345,1265
+"WA","2016","Jan-Jun","Heavy transport",22,216
+"WA","2016","Jan-Jun","Motorcyclist",403,3405
+"WA","2016","Jan-Jun","Other or unknown",35,273
+"WA","2016","Jan-Jun","Pedestrian",88,809
+"WA","2016","Jul-Dec","Bus occupant",13,78
+"WA","2016","Jul-Dec","Car, van or ute",681,5558
+"WA","2016","Jul-Dec","Cyclist",307,999
+"WA","2016","Jul-Dec","Heavy transport",12,228
+"WA","2016","Jul-Dec","Motorcyclist",399,2933
+"WA","2016","Jul-Dec","Other or unknown",33,139
+"WA","2016","Jul-Dec","Pedestrian",78,1203
+"WA","2017","Jan-Jun","Bus occupant",8,42
+"WA","2017","Jan-Jun","Car, van or ute",611,5000
+"WA","2017","Jan-Jun","Cyclist",332,895
+"WA","2017","Jan-Jun","Heavy transport",12,108
+"WA","2017","Jan-Jun","Motorcyclist",512,3096
+"WA","2017","Jan-Jun","Other or unknown",45,155
+"WA","2017","Jan-Jun","Pedestrian",96,857
+"WA","2017","Jul-Dec","Bus occupant",7,14
+"WA","2017","Jul-Dec","Car, van or ute",691,4568
+"WA","2017","Jul-Dec","Cyclist",305,851
+"WA","2017","Jul-Dec","Heavy transport",17,64
+"WA","2017","Jul-Dec","Motorcyclist",419,2343
+"WA","2017","Jul-Dec","Other or unknown",42,148
+"WA","2017","Jul-Dec","Pedestrian",98,1019
+"WA","2018","Jan-Jun","Bus occupant",6,18
+"WA","2018","Jan-Jun","Car, van or ute",720,3783
+"WA","2018","Jan-Jun","Cyclist",343,841
+"WA","2018","Jan-Jun","Heavy transport",20,78
+"WA","2018","Jan-Jun","Motorcyclist",427,2469
+"WA","2018","Jan-Jun","Other or unknown",34,154
+"WA","2018","Jan-Jun","Pedestrian",89,584
+"WA","2018","Jul-Dec","Bus occupant",6,81
+"WA","2018","Jul-Dec","Car, van or ute",794,3322
+"WA","2018","Jul-Dec","Cyclist",322,837
+"WA","2018","Jul-Dec","Heavy transport",26,79
+"WA","2018","Jul-Dec","Motorcyclist",361,1686
+"WA","2018","Jul-Dec","Other or unknown",26,144
+"WA","2018","Jul-Dec","Pedestrian",100,1004
+"WA","2019","Jan-Jun","Bus occupant",7,10
+"WA","2019","Jan-Jun","Car, van or ute",717,3516
+"WA","2019","Jan-Jun","Cyclist",370,1216
+"WA","2019","Jan-Jun","Heavy transport",23,125
+"WA","2019","Jan-Jun","Motorcyclist",421,2335
+"WA","2019","Jan-Jun","Other or unknown",25,247
+"WA","2019","Jan-Jun","Pedestrian",116,1053
+"WA","2019","Jul-Dec","Bus occupant",9,64
+"WA","2019","Jul-Dec","Car, van or ute",851,4178
+"WA","2019","Jul-Dec","Cyclist",365,1027
+"WA","2019","Jul-Dec","Heavy transport",17,215
+"WA","2019","Jul-Dec","Motorcyclist",465,2834
+"WA","2019","Jul-Dec","Other or unknown",37,88
+"WA","2019","Jul-Dec","Pedestrian",111,914
+"WA","2020","Jan-Jun","Bus occupant",7,21
+"WA","2020","Jan-Jun","Car, van or ute",656,4244
+"WA","2020","Jan-Jun","Cyclist",451,1375
+"WA","2020","Jan-Jun","Heavy transport",18,128
+"WA","2020","Jan-Jun","Motorcyclist",469,2864
+"WA","2020","Jan-Jun","Other or unknown",32,83
+"WA","2020","Jan-Jun","Pedestrian",71,426
+"WA","2020","Jul-Dec","Bus occupant",13,44
+"WA","2020","Jul-Dec","Car, van or ute",876,4542
+"WA","2020","Jul-Dec","Cyclist",383,1089
+"WA","2020","Jul-Dec","Heavy transport",26,63
+"WA","2020","Jul-Dec","Motorcyclist",480,3048
+"WA","2020","Jul-Dec","Other or unknown",42,160
+"WA","2020","Jul-Dec","Pedestrian",112,701
+"WA","2021","Jan-Jun","Bus occupant",12,15
+"WA","2021","Jan-Jun","Car, van or ute",811,4755
+"WA","2021","Jan-Jun","Cyclist",361,1373
+"WA","2021","Jan-Jun","Heavy transport",23,36
+"WA","2021","Jan-Jun","Motorcyclist",450,3205
+"WA","2021","Jan-Jun","Other or unknown",43,338
+"WA","2021","Jan-Jun","Pedestrian",100,832
+"WA","2021","Jul-Dec","Bus occupant",10,38
+"WA","2021","Jul-Dec","Car, van or ute",811,5439
+"WA","2021","Jul-Dec","Cyclist",343,1651
+"WA","2021","Jul-Dec","Heavy transport",24,127
+"WA","2021","Jul-Dec","Motorcyclist",432,3376
+"WA","2021","Jul-Dec","Other or unknown",28,132
+"WA","2021","Jul-Dec","Pedestrian",120,971
